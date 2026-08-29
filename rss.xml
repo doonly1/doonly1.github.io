@@ -1,0 +1,27 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>站点</title>
+<link>https://doonly1.github.io/fXkksc0i65TP/</link>
+<description>站点</description>
+<language>zh-CN</language>
+<atom:link href="https://doonly1.github.io/h2ZEeXss0X7n/" rel="self" type="application/rss+xml"/>
+
+<item>
+<title>Hello World：第一篇发布</title>
+<link>https://doonly1.github.io/GNF7sNbiwG5n/</link>
+<guid isPermaLink="true">https://doonly1.github.io/GNF7sNbiwG5n/</guid>
+<pubDate>Fri, 28 Aug 2026 16:00:00 GMT</pubDate>
+<description>Hello World：第一篇发布</description>
+
+<content:encoded><![CDATA[&lt;p&gt;这是独立内容树的第一篇文章。带 date 标签的文章才会被发布。&lt;/p&gt;]]></content:encoded>
+
+</item>
+
+</channel>
+</rss>
+
+</html>

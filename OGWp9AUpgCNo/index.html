@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta name="referrer" content="no-referrer">
+    
+    <title>分类 - 站点</title>
+
+    <meta name="description" content="">
+    
+
+    
+
+    
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="分类 - 站点">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/OGWp9AUpgCNo/">
+    <meta property="og:site_name" content="站点">
+    
+    
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="分类 - 站点">
+    <meta name="twitter:description" content="">
+    
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</head>
+<body class="page-category">
+    <a href="#main-content" class="skip-link">跳到主要内容</a>
+    <div class="nav-progress" id="navProgress"></div>
+
+    
+
+    
+
+    <div class="page-layout">
+        
+        <aside class="sidebar">
+            <header class="brand-area">
+                <h1 class="site-title">
+                    <a href="/fXkksc0i65TP/">站点</a>
+                    <span class="brand-mark" aria-hidden="true"></span>
+                </h1>
+                <p class="bio"></p>            </header>
+            <nav class="site-nav" aria-label="主导航">
+                
+                <a href="/fXkksc0i65TP/">首页</a>
+                
+                <a href="/OGWp9AUpgCNo/" class=&#34;active&#34; aria-current=&#34;page&#34;>分类</a>
+                
+                <a href="/YepNW9jElsGN/">关于</a>
+                
+            </nav>
+            <address class="sidebar-footer">
+                
+                <button class="social-icon search-toggle" aria-label="搜索" title="搜索">
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </button>
+                <div class="search-dropdown" hidden>
+                    <input type="text" class="search-input" placeholder="搜索文章..." autocomplete="off">
+                    <ul class="search-results"></ul>
+                </div>
+            </address>
+        </aside>
+
+        <main class="content-stream" id="main-content">
+            
+
+            
+
+            
+            <div class="tag-index">
+                <ul class="taxonomy-cloud">
+                    <li><a href="/OGWp9AUpgCNo/" class="taxonomy-tag taxonomy-all active" data-tag="">全部</a></li>
+                    
+                    <li><a href="./OGWp9AUpgCNo?tag=Hello" class="taxonomy-tag" data-tag="Hello">Hello</a></li>
+                    
+                </ul>
+
+                <ul class="post-list" id="filtered-articles">
+                    
+                    <li class="post-item" data-tags="Hello">
+                        <a href="/GNF7sNbiwG5n/" class="post-link">
+                            <span class="post-title">Hello World：第一篇发布</span>
+                            <time class="post-meta" datetime="2026-08-29T00:00">2026年8月29日</time>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <script>
+            (function(){
+                var pills = document.querySelectorAll('.taxonomy-tag[data-tag]');
+                var allBtn = document.querySelector('.taxonomy-all');
+                var items = document.querySelectorAll('#filtered-articles .post-item');
+
+                function filter(tag) {
+                    pills.forEach(function(p){ p.classList.toggle('active', p.dataset.tag === tag); });
+                    allBtn.classList.toggle('active', !tag);
+                    items.forEach(function(i){
+                        i.style.display = (!tag || i.dataset.tags.split(' ').includes(tag)) ? '' : 'none';
+                    });
+                }
+
+                // 拦截标签点击：纯前端筛选，无刷新
+                var cloud = document.querySelector('.taxonomy-cloud');
+                if (cloud) {
+                    cloud.addEventListener('click', function(e) {
+                        var a = e.target.closest('a');
+                        if (!a || a.classList.contains('taxonomy-all')) return;
+                        e.preventDefault();
+                        var tag = a.dataset.tag;
+                        filter(tag);
+                        history.pushState({tag: tag}, '', '?tag=' + encodeURIComponent(tag));
+                    });
+                    // "全部"按钮
+                    var allLink = cloud.querySelector('.taxonomy-all');
+                    if (allLink) {
+                        allLink.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            filter('');
+                            history.pushState({tag: ''}, '', location.pathname);
+                        });
+                    }
+                }
+
+                // 从 URL query 参数读取 tag（页面加载即生效，无时序问题）
+                var m = location.search.match(/[?&]tag=([^&]*)/);
+                if (m) {
+                    filter(decodeURIComponent(m[1]));
+                }
+            })();
+            </script>
+            
+        </main>
+        
+    </div><!-- /.page-layout -->
+
+    
+
+    
+
+    <footer class="site-footer">
+        <p class="site-footer-text">
+            &copy; 
+            2026
+            
+            站点
+        </p>
+        
+    </footer>
+    
+    <script>
+    (function() {
+        window._searchArticles = [{"title":"Hello World：第一篇发布","url":"/GNF7sNbiwG5n/","tags":"Hello","summary":""}];
+        // 事件委托：PJAX 交换 DOM 后仍生效
+        document.addEventListener('click', function(e) {
+            var toggle = e.target.closest('.search-toggle');
+            if (toggle) {
+                e.preventDefault();
+                var dropdown = toggle.parentElement.querySelector('.search-dropdown');
+                if (!dropdown) return;
+                var hidden = dropdown.hasAttribute('hidden');
+                dropdown.toggleAttribute('hidden');
+                if (hidden) dropdown.querySelector('.search-input').focus();
+                return;
+            }
+            // 点击搜索区域外关闭
+            if (!e.target.closest('.search-dropdown') && !e.target.closest('.search-toggle')) {
+                var open = document.querySelector('.search-dropdown:not([hidden])');
+                if (open) open.setAttribute('hidden', '');
+            }
+        });
+        document.addEventListener('input', function(e) {
+            var input = e.target.closest('.search-input');
+            if (!input) return;
+            var results = input.parentElement.querySelector('.search-results');
+            if (!results) return;
+            var q = input.value.trim().toLowerCase();
+            results.innerHTML = '';
+            if (!q) return;
+            var matches = (window._searchArticles || []).filter(function(a) {
+                return a.title.toLowerCase().indexOf(q) !== -1
+                    || a.tags.toLowerCase().indexOf(q) !== -1
+                    || a.summary.toLowerCase().indexOf(q) !== -1;
+            }).slice(0, 8);
+            if (matches.length === 0) {
+                results.innerHTML = '<li class="search-empty">无匹配结果</li>';
+                return;
+            }
+            matches.forEach(function(a) {
+                var li = document.createElement('li');
+                li.className = 'search-result-item';
+                var link = document.createElement('a');
+                link.href = a.url;
+                link.textContent = a.title;
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+                li.appendChild(link);
+                results.appendChild(li);
+            });
+        });
+    })();
+    </script>
+</body>
+
+</html>

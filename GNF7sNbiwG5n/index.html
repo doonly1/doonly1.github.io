@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta name="referrer" content="no-referrer">
+    
+    <title>Hello World：第一篇发布 - 站点</title>
+
+    <meta name="description" content="">
+    
+
+    
+
+    
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Hello World：第一篇发布 - 站点">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="/GNF7sNbiwG5n/">
+    <meta property="og:site_name" content="站点">
+    
+    
+    <meta property="article:published_time" content="2026-08-29T00:00">
+    
+    
+    <meta property="article:author" content="doonly1">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hello World：第一篇发布 - 站点">
+    <meta name="twitter:description" content="">
+    
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</head>
+<body class="page-post">
+    <a href="#main-content" class="skip-link">跳到主要内容</a>
+    <div class="nav-progress" id="navProgress"></div>
+
+    
+
+    
+
+    <div class="page-layout">
+        
+        <aside class="sidebar">
+            <a href="/fXkksc0i65TP/" class="brand-block">
+                <span class="brand-name-vertical">站点</span>
+                <span class="brand-mark" aria-hidden="true"></span>
+            </a>
+        </aside>
+
+        <main class="article-wrapper" id="main-content">
+            <article class="article-container">
+                <header class="article-header">
+                    <h1 class="article-title">Hello World：第一篇发布</h1>
+                    <p class="article-meta">
+                        <span>doonly1</span>
+                        
+                        <time datetime="2026-08-29">2026年8月29日</time>
+                        <span>30 字</span>
+                    </p>
+                </header>
+
+                <div class="article-content ck-content">
+                    <p>这是独立内容树的第一篇文章。带 date 标签的文章才会被发布。</p>
+                </div>
+
+                <footer class="article-footer">
+                    
+                    <ul class="tags">
+                        
+                        <li><a href="./OGWp9AUpgCNo?tag=Hello" class="tag" data-no-pjax>Hello</a></li>
+                        
+                        <li><a href="/OGWp9AUpgCNo/" class="tag tag-more">更多</a></li>
+                    </ul>
+
+                    
+                </footer>
+            </article>
+        </main>
+
+        <aside class="outline-sidebar" aria-label="文章目录" data-lenis-prevent>
+            <div class="outline-heading"></div>
+        </aside>
+
+        <button class="mobile-nav-btn" aria-label="导航菜单">
+            <span aria-hidden="true">&#9776;</span>
+        </button>
+        <button class="mobile-outline-btn" aria-label="文章大纲">
+            <span aria-hidden="true">&#167;</span>
+        </button>
+
+        
+    </div><!-- /.page-layout -->
+
+    
+    <div class="mobile-overlay-backdrop" aria-hidden="true"></div>
+    <div class="mobile-nav-overlay" role="dialog" aria-label="导航菜单" aria-hidden="true">
+        <button class="overlay-close" aria-label="关闭导航">&times;</button>
+        <div class="overlay-brand">站点</div>
+        <p class="overlay-bio"></p>
+        <nav class="overlay-nav" aria-label="主导航">
+            
+            <a href="/fXkksc0i65TP/">首页</a>
+            
+            <a href="/OGWp9AUpgCNo/">分类</a>
+            
+            <a href="/YepNW9jElsGN/">关于</a>
+            
+        </nav>
+    </div>
+    <div class="mobile-outline-overlay" role="dialog" aria-label="文章大纲" aria-hidden="true" data-lenis-prevent>
+        <button class="overlay-close" aria-label="关闭大纲">&times;</button>
+        <div class="outline-heading">目录</div>
+    </div>
+    
+
+    
+
+    <footer class="site-footer">
+        <p class="site-footer-text">
+            &copy; 
+            2026
+            
+            站点
+        </p>
+        
+    </footer>
+    
+    <script>
+    (function() {
+        window._searchArticles = [{"title":"Hello World：第一篇发布","url":"/GNF7sNbiwG5n/","tags":"Hello","summary":""}];
+        // 事件委托：PJAX 交换 DOM 后仍生效
+        document.addEventListener('click', function(e) {
+            var toggle = e.target.closest('.search-toggle');
+            if (toggle) {
+                e.preventDefault();
+                var dropdown = toggle.parentElement.querySelector('.search-dropdown');
+                if (!dropdown) return;
+                var hidden = dropdown.hasAttribute('hidden');
+                dropdown.toggleAttribute('hidden');
+                if (hidden) dropdown.querySelector('.search-input').focus();
+                return;
+            }
+            // 点击搜索区域外关闭
+            if (!e.target.closest('.search-dropdown') && !e.target.closest('.search-toggle')) {
+                var open = document.querySelector('.search-dropdown:not([hidden])');
+                if (open) open.setAttribute('hidden', '');
+            }
+        });
+        document.addEventListener('input', function(e) {
+            var input = e.target.closest('.search-input');
+            if (!input) return;
+            var results = input.parentElement.querySelector('.search-results');
+            if (!results) return;
+            var q = input.value.trim().toLowerCase();
+            results.innerHTML = '';
+            if (!q) return;
+            var matches = (window._searchArticles || []).filter(function(a) {
+                return a.title.toLowerCase().indexOf(q) !== -1
+                    || a.tags.toLowerCase().indexOf(q) !== -1
+                    || a.summary.toLowerCase().indexOf(q) !== -1;
+            }).slice(0, 8);
+            if (matches.length === 0) {
+                results.innerHTML = '<li class="search-empty">无匹配结果</li>';
+                return;
+            }
+            matches.forEach(function(a) {
+                var li = document.createElement('li');
+                li.className = 'search-result-item';
+                var link = document.createElement('a');
+                link.href = a.url;
+                link.textContent = a.title;
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+                li.appendChild(link);
+                results.appendChild(li);
+            });
+        });
+    })();
+    </script>
+</body>
+
+</html>
