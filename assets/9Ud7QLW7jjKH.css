@@ -1,0 +1,11 @@
+/* wenxin-lenis.css - Lenis 平滑滚动相关样式 */
+/* Prevent Chrome from fighting Lenis with its own smooth scroll */
+html { scroll-behavior: auto !important; }
+html.lenis { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto; }
+/* Cut scroll chaining: inner container reaching its end must NOT scroll the page.
+   Applied to [data-lenis-prevent] directly, so it also works when Lenis is
+   skipped (touch devices / prefers-reduced-motion). */
+[data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+.lenis.lenis-scrolling iframe { pointer-events: none; }

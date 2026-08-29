@@ -1,0 +1,344 @@
+/* wenxin-outline.css - 文章大纲（TOC）样式：层级缩进、滚动高亮 */
+/* ── Article Outline Sidebar ─────────────────────────────────────────────
+ * Right-side TOC on post pages, mirroring the left sidebar's
+ * absolute-positioning pattern. Same calc() formula flipped to right.
+ * Hidden on tablet/mobile — mobile overlay handles those.
+ * ─────────────────────────────────────────────────────────────────────── */
+
+.outline-sidebar {
+  position: fixed;
+  top: var(--space-32);
+  right: clamp(4px, 1vw, 12px);
+  width: clamp(200px, 16vw, 260px);
+  height: calc(100vh - var(--space-32) * 2);
+  max-height: calc(100vh - var(--space-32) * 2);
+  overflow-y: auto;
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  opacity: 0;
+  transition: opacity var(--duration-fast);
+  padding-block: var(--space-2);
+  padding-left: var(--space-12);
+  z-index: 40;
+}
+
+.outline-sidebar:hover {
+  opacity: 1;
+}
+
+.outline-heading {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-5);
+}
+
+.outline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.outline-item {
+  line-height: var(--leading-snug);
+}
+
+.outline-item a {
+  display: block;
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  padding: 3px 0;
+  font-size: var(--text-xs);
+  transition: color var(--duration-fast);
+}
+
+/* Indentation mirrors heading level depth */
+.outline-item.outline-h1 a,
+.outline-item.outline-h2 a { padding-left: var(--space-3); }
+.outline-item.outline-h3 a { padding-left: var(--space-6); }
+.outline-item.outline-h4 a { padding-left: var(--space-8); }
+.outline-item.outline-h5 a { padding-left: var(--space-10); }
+.outline-item.outline-h6 a { padding-left: var(--space-12); }
+
+.outline-item a:hover {
+  color: var(--color-text-primary);
+}
+
+/* active 规则后置：同特异性下覆盖 hover，高亮项悬浮时保持强调色 */
+.outline-item.active a {
+  color: var(--color-accent);
+}
+
+.outline-item.outline-empty {
+  padding: var(--space-2) var(--space-3);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* Scrollbar: hidden — content still scrollable, but no visible bar */
+.outline-sidebar { scrollbar-width: none; -ms-overflow-style: none; }
+.outline-sidebar::-webkit-scrollbar { display: none; width: 0; }
+
+/* ── Back to Top ──────────────────────────────────────────────────────── */
+
+.back-to-top {
+  position: fixed;
+  bottom: var(--space-8);
+  right: var(--space-6);
+  z-index: 90;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 50%;
+  background: var(--color-bg-pure);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-lg);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration-base) var(--ease-out),
+    transform var(--duration-base) var(--ease-out),
+    color var(--duration-fast),
+    border-color var(--duration-fast);
+  pointer-events: none;
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* ── Mobile Floating Toggle Buttons ─────────────────────────────────────
+ * Hidden on desktop (>768px), shown on post pages mobile.
+ * ─────────────────────────────────────────────────────────────────────── */
+
+.mobile-nav-btn,
+.mobile-outline-btn {
+  display: none;
+  position: fixed;
+  z-index: 80;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-bg-pure);
+  border: 1px solid var(--color-border-subtle);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-lg);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: color var(--duration-fast),
+    border-color var(--duration-fast);
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.mobile-nav-btn {
+  bottom: var(--space-8);
+  left: var(--space-6);
+}
+
+.mobile-outline-btn {
+  bottom: var(--space-8);
+  right: var(--space-6);
+}
+
+.mobile-nav-btn:active,
+.mobile-outline-btn:active {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: scale(0.92);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mobile-nav-btn:hover,
+  .mobile-outline-btn:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+}
+
+/* ── Mobile Overlay Backdrop ──────────────────────────────────────────── */
+
+.mobile-overlay-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 84;
+  opacity: 0;
+  transition: opacity var(--duration-fast) var(--ease-out);
+}
+
+.mobile-overlay-backdrop.is-visible {
+  display: block;
+  opacity: 1;
+}
+
+/* ── Mobile Overlay Panels ────────────────────────────────────────────── */
+
+.mobile-nav-overlay,
+.mobile-outline-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 85;
+  width: 280px;
+  max-width: 82vw;
+  background: var(--color-bg-pure);
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: var(--space-10) var(--space-8) var(--space-8);
+  transition: transform var(--duration-base) var(--ease-out);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
+}
+
+.mobile-nav-overlay::-webkit-scrollbar,
+.mobile-outline-overlay::-webkit-scrollbar { display: none; width: 0; }
+
+.mobile-nav-overlay {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.mobile-outline-overlay {
+  right: 0;
+  transform: translateX(100%);
+}
+
+.mobile-nav-overlay.is-open {
+  transform: translateX(0);
+}
+
+.mobile-outline-overlay.is-open {
+  transform: translateX(0);
+}
+
+/* Overlay content: replicate sidebar brand+navigation */
+.mobile-nav-overlay .overlay-brand {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-text-heading);
+  margin-bottom: var(--space-6);
+}
+
+.mobile-nav-overlay .overlay-bio {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-8);
+}
+
+.mobile-nav-overlay .overlay-nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.mobile-nav-overlay .overlay-nav a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: color var(--duration-fast),
+    background-color var(--duration-fast);
+}
+
+.mobile-nav-overlay .overlay-nav a.active,
+.mobile-nav-overlay .overlay-nav a:hover {
+  color: var(--color-text-heading);
+  background-color: var(--color-bg-subtle);
+}
+
+/* Overlay close button */
+.overlay-close {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: none;
+  color: var(--color-text-muted);
+  font-size: var(--text-lg);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: color var(--duration-fast),
+    background-color var(--duration-fast);
+}
+
+.overlay-close:hover,
+.overlay-close:active {
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-subtle);
+}
+
+/* ── Responsive: hide outline-sidebar, show mobile buttons ────────────── */
+
+@media (max-width: 1024px) {
+  .outline-sidebar {
+    display: none;
+  }
+
+  .mobile-nav-btn,
+  .mobile-outline-btn {
+    display: flex;
+  }
+}
+
+/* On non-post pages (index/archive/about), the sidebar already handles
+   navigation in the grid — the mobile nav button is unnecessary. */
+@media (max-width: 639px) {
+  .back-to-top {
+    bottom: calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
+    right: var(--space-4);
+  }
+
+  .mobile-nav-btn {
+    bottom: calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
+    left: var(--space-4);
+  }
+
+  .mobile-outline-btn {
+    bottom: calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
+    right: var(--space-4);
+  }
+}
+
+/* ── Print: hide outline and mobile chrome ────────────────────────────── */
+
+@media print {
+  .outline-sidebar,
+  .mobile-nav-btn,
+  .mobile-outline-btn,
+  .mobile-overlay-backdrop,
+  .mobile-nav-overlay,
+  .mobile-outline-overlay,
+  .back-to-top {
+    display: none !important;
+  }
+}
