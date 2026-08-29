@@ -5,15 +5,15 @@
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
 <title>蜗牛</title>
-<link>https://doonly1.github.io/YfNR0xMoo2OG/</link>
+<link>https://doonly1.github.io/home/</link>
 <description>基于 Trilium Notes 的极简阅读站点</description>
 <language>zh-CN</language>
-<atom:link href="https://doonly1.github.io/vpmT6q15v9sv/" rel="self" type="application/rss+xml"/>
+<atom:link href="https://doonly1.github.io/rss/" rel="self" type="application/rss+xml"/>
 
 <item>
 <title>Links</title>
-<link>https://doonly1.github.io/ojSEA88kdOcb/</link>
-<guid isPermaLink="true">https://doonly1.github.io/ojSEA88kdOcb/</guid>
+<link>https://doonly1.github.io/fLinks/</link>
+<guid isPermaLink="true">https://doonly1.github.io/fLinks/</guid>
 <pubDate>Mon, 10 Aug 2026 16:00:00 GMT</pubDate>
 <description>Links</description>
 
@@ -21,8 +21,8 @@
 
 <item>
 <title>Eco</title>
-<link>https://doonly1.github.io/gSFYCnUV0kzy/</link>
-<guid isPermaLink="true">https://doonly1.github.io/gSFYCnUV0kzy/</guid>
+<link>https://doonly1.github.io/ecology/</link>
+<guid isPermaLink="true">https://doonly1.github.io/ecology/</guid>
 <pubDate>Mon, 10 Aug 2026 16:00:00 GMT</pubDate>
 <description>Eco</description>
 
