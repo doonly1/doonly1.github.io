@@ -2,7 +2,7 @@
   font-family: "Phosphor";
   /* 部署时将 <FONT_PHOSPHOR> 替换为实际的 Trilium 笔记 ID */
   src:
-    url("../../..//assets/H7vvAArYhvZL.woff2") format("woff2");
+    url("https://cdn.jsdelivr.net/gh/doonly1/doonly1.github.io@main/assets/H7vvAArYhvZL.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: block;
