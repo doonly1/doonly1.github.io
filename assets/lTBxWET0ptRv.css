@@ -1,22 +1,19 @@
-/* wenxin-page-archive.css - 分类/归档页样式：分类卡片网格 */
+<p>/* wenxin-page-archive.css - 分类/归档页样式：分类卡片网格 */
 .archive-wrapper {
   max-width: var(--width-content);
   padding-top: var(--space-2);
-}
-
-.archive-header {
+}</p>
+<p>.archive-header {
   margin-bottom: var(--space-12);
-}
-
-.taxonomy-cloud {
+}</p>
+<p>.taxonomy-cloud {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-3);
   margin-bottom: var(--space-12);
-}
-
-.taxonomy-tag {
+}</p>
+<p>.taxonomy-tag {
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
@@ -28,9 +25,8 @@
   background: none;
   cursor: pointer;
   line-height: inherit;
-}
-
-.taxonomy-tag:hover,
+}</p>
+<p>.taxonomy-tag:hover,
 .taxonomy-tag.active {
   color: var(--color-accent);
   border-color: var(--color-accent);
@@ -39,45 +35,38 @@
   color: var(--color-accent);
   border-color: var(--color-accent);
   opacity: 0.7;
-}
-
-.divider {
+}</p>
+<p>.divider {
   border: none;
   border-top: 1px solid var(--color-border-subtle);
   margin: var(--space-8) 0;
-}
-
-/* Base post list styles shared with homepage */
-
-.post-list {
+}</p>
+<p>/* Base post list styles shared with homepage */</p>
+<p>.post-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-}
-
-.post-item {
+}</p>
+<p>.post-item {
   display: block;
-  padding: var(--space-6) 0;
+  padding: var(--space-6) 0 var(--space-6) var(--space-10);
   position: relative;
   opacity: 0;
   transform: translateY(12px);
   animation: fadeUpStagger 0.5s var(--ease-out) forwards;
-}
-
-.post-link {
+}</p>
+<p>.post-link {
   display: block;
-}
-
-.post-meta {
+}</p>
+<p>.post-meta {
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
   margin-bottom: var(--space-2);
   display: block;
   letter-spacing: var(--tracking-wide);
-}
-
-.post-title {
+}</p>
+<p>.post-title {
   font-family: var(--font-body);
   font-size: var(--text-xl);
   color: var(--color-text-primary);
@@ -87,46 +76,37 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-}
-
-.post-link:hover .post-title {
+}</p>
+<p>.post-link:hover .post-title {
   color: var(--color-accent);
-}
-
-/* Override homepage timeline styles — archive list has no timeline rail */
-
-.archive-wrapper .post-list {
+}</p>
+<p>/* Override homepage timeline styles — archive list has no timeline rail */</p>
+<p>.archive-wrapper .post-list {
   border-left: none;
-}
-
-.archive-wrapper .post-item {
+}</p>
+<p>.archive-wrapper .post-item {
   padding-left: 0;
   padding-bottom: var(--space-5);
-}
-
-.archive-wrapper .post-item::before {
+}</p>
+<p>.archive-wrapper .post-item::before {
   display: none;
-}
-
-/* Stagger delays reference shared variables from variables.css */
-
-.post-item:nth-child(1) { animation-delay: var(--stagger-1); }
+}</p>
+<p>/* Stagger delays reference shared variables from variables.css */</p>
+<p>.post-item:nth-child(1) { animation-delay: var(--stagger-1); }
 .post-item:nth-child(2) { animation-delay: var(--stagger-2); }
 .post-item:nth-child(3) { animation-delay: var(--stagger-3); }
 .post-item:nth-child(4) { animation-delay: var(--stagger-4); }
 .post-item:nth-child(5) { animation-delay: var(--stagger-5); }
 .post-item:nth-child(6) { animation-delay: var(--stagger-6); }
 .post-item:nth-child(7) { animation-delay: var(--stagger-7); }
-.post-item:nth-child(8) { animation-delay: var(--stagger-8); }
-
-@media (max-width: 639px) {
+.post-item:nth-child(8) { animation-delay: var(--stagger-8); }</p>
+<p>@media (max-width: 639px) {
   .archive-header { margin-bottom: var(--space-8); }
   .taxonomy-cloud { margin-bottom: var(--space-6); }
-  .post-item { padding: var(--space-4) 0; }
+  .post-item { padding: var(--space-4) 0 var(--space-4) var(--space-6); }
   .post-meta { font-size: var(--text-xs); }
-}
-
-.pagination {
+}</p>
+<p>.pagination {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -136,58 +116,48 @@
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   letter-spacing: var(--tracking-wide);
-}
-
-.pagination-link {
+}</p>
+<p>.pagination-link {
   color: var(--color-text-secondary);
   transition: color var(--duration-fast);
   text-decoration: none;
-}
-
-.pagination-link:hover {
+}</p>
+<p>.pagination-link:hover {
   color: var(--color-accent);
-}
-
-.pagination-prev {
+}</p>
+<p>.pagination-prev {
   margin-right: auto;
-}
-
-.pagination-next {
+}</p>
+<p>.pagination-next {
   margin-left: auto;
-}
-
-.pagination-pages {
+}</p>
+<p>.pagination-pages {
   display: flex;
   align-items: center;
   gap: var(--space-4);
-}
-
-.pagination-number {
+}</p>
+<p>.pagination-number {
   color: var(--color-text-secondary);
   text-decoration: none;
   transition: color var(--duration-fast);
   min-width: 2ch;
   text-align: center;
-}
-
-.pagination-number:hover {
+}</p>
+<p>.pagination-number:hover {
   color: var(--color-accent);
-}
-
-.pagination-current {
+}</p>
+<p>.pagination-current {
   color: var(--color-accent);
   font-weight: 500;
-}
-
-.pagination-ellipsis {
+}</p>
+<p>.pagination-ellipsis {
   color: var(--color-text-tertiary);
   padding: 0 var(--space-1);
   user-select: none;
-}
-
-@media (max-width: 639px) {
+}</p>
+<p>@media (max-width: 639px) {
   .pagination {
     margin-top: var(--space-12);
     font-size: var(--text-xs);
   }
-}
+}</p>
