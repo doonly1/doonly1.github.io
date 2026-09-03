@@ -1,21 +1,20 @@
-/* wenxin-page-error.css - 错误页样式（404 等） */
+<p>/* wenxin-page-error.css - 错误页样式（404 等） */
 /* 404 page: single column, no sidebar */
-.page-layout {
+/* IMPORTANT: 必须带 body.page-error 限定，否则会污染首页/分类页的布局。
+   这是个真实出现过的 bug：忘记限定导致所有页面的 sidebar 被 display:none。 */
+body.page-error .page-layout {
   grid-template-columns: 1fr;
   max-width: 600px;
   margin-inline: auto;
-}
-
-.sidebar {
+}</p>
+<p>body.page-error .sidebar {
   display: none;
-}
-
-html, body {
+}</p>
+<p>html, body {
   height: 100vh;   /* fallback */
   height: 100dvh;  /* Dynamic viewport: excludes iOS address bar */
-}
-
-.error-page {
+}</p>
+<p>.error-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,9 +23,8 @@ html, body {
   padding: var(--space-8);
   text-align: center;
   animation: fadeUp var(--duration-slow) var(--ease-out) forwards;
-}
-
-.error-title {
+}</p>
+<p>.error-title {
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, var(--text-4xl));
   font-weight: 700;
@@ -34,17 +32,15 @@ html, body {
   line-height: var(--leading-tight);
   margin-bottom: var(--space-6);
   letter-spacing: var(--tracking-tight);
-}
-
-.error-description {
+}</p>
+<p>.error-description {
   font-size: var(--text-base);
   color: var(--color-text-secondary);
   line-height: var(--leading-relaxed);
   margin-bottom: var(--space-10);
   max-width: 400px;
-}
-
-.home-link {
+}</p>
+<p>.home-link {
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
@@ -53,12 +49,10 @@ html, body {
   align-items: center;
   gap: var(--space-2);
   transition: color var(--duration-fast) var(--ease-default);
-}
-
-.home-link:hover {
+}</p>
+<p>.home-link:hover {
   color: var(--color-accent);
-}
-
-.home-link .ph {
+}</p>
+<p>.home-link .ph {
   font-size: var(--icon-sm);
-}
+}</p>
