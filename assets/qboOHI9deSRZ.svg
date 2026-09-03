@@ -1,19 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <linearGradient id="photonsea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1e40af"/>
-      <stop offset="1" stop-color="#0f172a"/>
-    </linearGradient>
-  </defs>
-  <rect width="32" height="32" rx="7" fill="url(#photonsea)"/>
-  <!-- 光子核心 -->
-  <circle cx="16" cy="11.5" r="3.4" fill="#ffffff"/>
-  <circle cx="16" cy="11.5" r="5.4" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.4"/>
-  <circle cx="16" cy="11.5" r="7.2" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="1.2"/>
-  <!-- 光子的海洋：每一条“浪”都由一串光子组成 -->
-  <g fill="none" stroke="#ffffff" stroke-linecap="round">
-    <path d="M3 21.2 C 9 19.4 14 23.2 20 21.4 S 29 22.2 29 22.2" stroke-width="2.4" stroke-dasharray="0.1 4.6" stroke-opacity=".95"/>
-    <path d="M4 24.6 C 10 22.9 15 26.1 21 24.4 S 28 25.6 28 25.6" stroke-width="2.2" stroke-dasharray="0.1 5.2" stroke-opacity=".6"/>
-    <path d="M6 27.6 C 11 26.1 16 28.6 22 27.1 S 28 28.1 28 28.1" stroke-width="2" stroke-dasharray="0.1 5.9" stroke-opacity=".35"/>
+  <!--
+    透明底 · φ（光子）变形为「光柱 + 海」
+    主形单色方案（选其一启用，其它注释掉即可）：
+    C1 · 翡翠绿  #0f766e  · 沉稳自然
+    C2 · 暖橙    #e85b2e  · 活力醒目
+    C3 · 胭脂红  #b33a3a  · 东方高级
+    C4 · 青瓷墨绿 #3a4a3e  · 素雅宁静
+    C5 · 青靛    #1e3a8a  · 深沉科技（当前启用）
+  -->
+  <g color="#1e3a8a">
+    <!-- φ 变形：光柱竖线 -->
+    <line x1="16" y1="4" x2="16" y2="28" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- φ 变形：上半圆 -->
+    <path d="M16 5.5 A 8.5 8.5 0 0 1 16 22.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- φ 变形：下半圆延伸为海浪 -->
+    <path d="M16 22.5 C 12 25 8 22 4 24 S 0 26 0 26 L 0 32 L 32 32 L 32 26 C 28 24.5 24 28 20 25 C 18.5 24 17 23 16 22.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-opacity=".75"/>
+    <!-- 光子 -->
+    <circle cx="16" cy="4" r="2" fill="currentColor" fill-opacity=".88"/>
+    <circle cx="16" cy="4" r="3.6" fill="none" stroke="currentColor" stroke-width="1.1" stroke-opacity=".38"/>
   </g>
 </svg>
