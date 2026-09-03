@@ -1,4 +1,4 @@
-<p>/* wenxin-sidebar.css - 左侧导航栏：站点标题、导航菜单、社交图标 */
+/* wenxin-sidebar.css - 左侧导航栏：站点标题、导航菜单、社交图标 */
 /* ── Sidebar: sticky left column (home/category/about/default) ─────────
  * Post pages are EXCLUDED — post.css positions the sidebar with
  * position: absolute beside the centered article instead. ─────────────── */
@@ -10,8 +10,9 @@ body:not(.page-post) .sidebar {
   display: flex;
   flex-direction: column;
   gap: var(--space-12);
-}</p>
-<p>.brand-area .site-title {
+}
+
+.brand-area .site-title {
   font-family: var(--font-display);
   font-size: 3.5rem;
   font-weight: 700;
@@ -21,8 +22,9 @@ body:not(.page-post) .sidebar {
   display: flex;
   align-items: baseline;
   margin-bottom: var(--space-6);
-}</p>
-<p>.brand-mark {
+}
+
+.brand-mark {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -30,41 +32,48 @@ body:not(.page-post) .sidebar {
   margin-left: 4px;
   flex-shrink: 0;
   animation: pulseBrand 4s ease-in-out infinite;
-}</p>
-<p>.bio {
+}
+
+.bio {
   font-size: var(--text-base);
   color: var(--color-text-secondary);
   line-height: var(--leading-relaxed);
-}</p>
-<p>.site-nav {
+}
+
+.site-nav {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   letter-spacing: var(--tracking-wide);
-}</p>
-<p>.site-nav a {
+}
+
+.site-nav a {
   color: var(--color-text-secondary);
   display: inline-flex;
   align-items: center;
   width: fit-content;
-}</p>
-<p>.site-nav a::before {
-  content: &quot;—&quot;;
+}
+
+.site-nav a::before {
+  content: "—";
   margin-right: var(--space-2);
   color: transparent;
   transition: color var(--duration-fast);
-}</p>
-<p>.site-nav a:hover,
+}
+
+.site-nav a:hover,
 .site-nav a.active {
   color: var(--color-text-primary);
-}</p>
-<p>.site-nav a.active::before,
+}
+
+.site-nav a.active::before,
 .site-nav a:hover::before {
   color: var(--color-accent);
-}</p>
-<p>.sidebar-footer {
+}
+
+.sidebar-footer {
   margin-top: auto;
   display: flex;
   flex-direction: row;
@@ -72,24 +81,27 @@ body:not(.page-post) .sidebar {
   align-items: center;
   /* Avoid content being obscured by iOS Home Indicator */
   padding-bottom: env(safe-area-inset-bottom, 0px);
-}</p>
-<p>.social-icon {
+}
+
+.social-icon {
   color: var(--color-text-muted);
   font-size: var(--icon-md);
   display: inline-flex;
   transition: color var(--duration-fast), transform var(--duration-fast);
-  /* 搜索按钮复用本 class（&lt;button&gt;）：清除浏览器默认边框/背景/内边距 */
+  /* 搜索按钮复用本 class（<button>）：清除浏览器默认边框/背景/内边距 */
   border: none;
   background: none;
   padding: 0;
   cursor: pointer;
-}</p>
-<p>.social-icon:hover {
+}
+
+.social-icon:hover {
   color: var(--color-text-secondary);
-}</p>
-<p>/* Translate effect only on pointer devices — touch has no hover state */
+}
+
+/* Translate effect only on pointer devices — touch has no hover state */
 @media (hover: hover) and (pointer: fine) {
   .social-icon:hover {
     transform: translateY(-2px);
   }
-}</p>
+}
