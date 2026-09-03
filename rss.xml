@@ -5,15 +5,15 @@
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
 <title>蜗牛</title>
-<link>https://demo.custom.test/home/</link>
+<link>https://doonly1.github.io/home/</link>
 <description>基于 Trilium Notes 的极简阅读站点</description>
 <language>zh-CN</language>
-<atom:link href="https://demo.custom.test/rss/" rel="self" type="application/rss+xml"/>
+<atom:link href="https://doonly1.github.io/rss/" rel="self" type="application/rss+xml"/>
 
 <item>
 <title>Links</title>
-<link>https://demo.custom.test/fLinks/</link>
-<guid isPermaLink="true">https://demo.custom.test/fLinks/</guid>
+<link>https://doonly1.github.io/fLinks/</link>
+<guid isPermaLink="true">https://doonly1.github.io/fLinks/</guid>
 <pubDate>Mon, 10 Aug 2026 16:00:00 GMT</pubDate>
 <description>Links</description>
 
@@ -21,8 +21,8 @@
 
 <item>
 <title>Eco</title>
-<link>https://demo.custom.test/ecology/</link>
-<guid isPermaLink="true">https://demo.custom.test/ecology/</guid>
+<link>https://doonly1.github.io/ecology/</link>
+<guid isPermaLink="true">https://doonly1.github.io/ecology/</guid>
 <pubDate>Mon, 10 Aug 2026 16:00:00 GMT</pubDate>
 <description>Eco</description>
 
@@ -30,8 +30,8 @@
 
 <item>
 <title>Wenxin Theme 介绍</title>
-<link>https://demo.custom.test/Guu1Vh90bC7F/</link>
-<guid isPermaLink="true">https://demo.custom.test/Guu1Vh90bC7F/</guid>
+<link>https://doonly1.github.io/Guu1Vh90bC7F/</link>
+<guid isPermaLink="true">https://doonly1.github.io/Guu1Vh90bC7F/</guid>
 <pubDate>Thu, 30 Jul 2026 02:00:00 GMT</pubDate>
 <description>将 Hugo 主题文心改造为 Trilium Notes 的独立 Share 主题模板</description>
 
@@ -41,8 +41,8 @@
 
 <item>
 <title>磁场的量子本质</title>
-<link>https://demo.custom.test/UycwZP7x0TDR/</link>
-<guid isPermaLink="true">https://demo.custom.test/UycwZP7x0TDR/</guid>
+<link>https://doonly1.github.io/UycwZP7x0TDR/</link>
+<guid isPermaLink="true">https://doonly1.github.io/UycwZP7x0TDR/</guid>
 <pubDate>Mon, 06 Jul 2026 16:00:00 GMT</pubDate>
 <description>磁场的量子本质</description>
 
@@ -52,8 +52,8 @@
 
 <item>
 <title>水的浮力微观解释</title>
-<link>https://demo.custom.test/A1pYNx3TVt3E/</link>
-<guid isPermaLink="true">https://demo.custom.test/A1pYNx3TVt3E/</guid>
+<link>https://doonly1.github.io/A1pYNx3TVt3E/</link>
+<guid isPermaLink="true">https://doonly1.github.io/A1pYNx3TVt3E/</guid>
 <pubDate>Fri, 23 Jan 2026 16:00:00 GMT</pubDate>
 <description>水的浮力微观解释</description>
 
@@ -63,8 +63,8 @@
 
 <item>
 <title>狭义相对论有哪些不完美的地方</title>
-<link>https://demo.custom.test/k1mB0haAFLzp/</link>
-<guid isPermaLink="true">https://demo.custom.test/k1mB0haAFLzp/</guid>
+<link>https://doonly1.github.io/k1mB0haAFLzp/</link>
+<guid isPermaLink="true">https://doonly1.github.io/k1mB0haAFLzp/</guid>
 <pubDate>Wed, 03 Dec 2025 16:00:00 GMT</pubDate>
 <description>狭义相对论有哪些不完美的地方</description>
 
@@ -74,8 +74,8 @@
 
 <item>
 <title>宏观世界会反作用于量子世界吗？</title>
-<link>https://demo.custom.test/dEXIwU4pgQml/</link>
-<guid isPermaLink="true">https://demo.custom.test/dEXIwU4pgQml/</guid>
+<link>https://doonly1.github.io/dEXIwU4pgQml/</link>
+<guid isPermaLink="true">https://doonly1.github.io/dEXIwU4pgQml/</guid>
 <pubDate>Mon, 27 Oct 2025 16:00:00 GMT</pubDate>
 <description>宏观世界会反作用于量子世界吗？</description>
 
@@ -85,8 +85,8 @@
 
 <item>
 <title>相对性计算</title>
-<link>https://demo.custom.test/gwZfEOkYaKd7/</link>
-<guid isPermaLink="true">https://demo.custom.test/gwZfEOkYaKd7/</guid>
+<link>https://doonly1.github.io/gwZfEOkYaKd7/</link>
+<guid isPermaLink="true">https://doonly1.github.io/gwZfEOkYaKd7/</guid>
 <pubDate>Sun, 22 Jun 2025 16:00:00 GMT</pubDate>
 <description>相对性计算</description>
 
@@ -96,8 +96,8 @@
 
 <item>
 <title>何为美</title>
-<link>https://demo.custom.test/R1KSaCmisrPA/</link>
-<guid isPermaLink="true">https://demo.custom.test/R1KSaCmisrPA/</guid>
+<link>https://doonly1.github.io/R1KSaCmisrPA/</link>
+<guid isPermaLink="true">https://doonly1.github.io/R1KSaCmisrPA/</guid>
 <pubDate>Wed, 08 May 2024 16:00:00 GMT</pubDate>
 <description>何为美</description>
 
@@ -107,8 +107,8 @@
 
 <item>
 <title>量子动因</title>
-<link>https://demo.custom.test/8ARePrJFYiHr/</link>
-<guid isPermaLink="true">https://demo.custom.test/8ARePrJFYiHr/</guid>
+<link>https://doonly1.github.io/8ARePrJFYiHr/</link>
+<guid isPermaLink="true">https://doonly1.github.io/8ARePrJFYiHr/</guid>
 <pubDate>Wed, 17 Apr 2024 16:00:00 GMT</pubDate>
 <description>量子动因</description>
 
@@ -118,8 +118,8 @@
 
 <item>
 <title>食物链顶端的景象</title>
-<link>https://demo.custom.test/4KSrFXPQjRmQ/</link>
-<guid isPermaLink="true">https://demo.custom.test/4KSrFXPQjRmQ/</guid>
+<link>https://doonly1.github.io/4KSrFXPQjRmQ/</link>
+<guid isPermaLink="true">https://doonly1.github.io/4KSrFXPQjRmQ/</guid>
 <pubDate>Sat, 13 Apr 2024 16:00:00 GMT</pubDate>
 <description>食物链顶端的景象</description>
 
@@ -129,8 +129,8 @@
 
 <item>
 <title>重力是无法感受的</title>
-<link>https://demo.custom.test/z5C9nOL5UXhA/</link>
-<guid isPermaLink="true">https://demo.custom.test/z5C9nOL5UXhA/</guid>
+<link>https://doonly1.github.io/z5C9nOL5UXhA/</link>
+<guid isPermaLink="true">https://doonly1.github.io/z5C9nOL5UXhA/</guid>
 <pubDate>Tue, 26 Sep 2023 16:00:00 GMT</pubDate>
 <description>重力是无法感受的</description>
 
@@ -140,8 +140,8 @@
 
 <item>
 <title>相对运动如何发生?</title>
-<link>https://demo.custom.test/RK5GquecFt6P/</link>
-<guid isPermaLink="true">https://demo.custom.test/RK5GquecFt6P/</guid>
+<link>https://doonly1.github.io/RK5GquecFt6P/</link>
+<guid isPermaLink="true">https://doonly1.github.io/RK5GquecFt6P/</guid>
 <pubDate>Wed, 13 Sep 2023 16:00:00 GMT</pubDate>
 <description>相对运动如何发生?</description>
 
@@ -151,8 +151,8 @@
 
 <item>
 <title>电能与热能，都是电子的动能</title>
-<link>https://demo.custom.test/6QQROrBRNNgx/</link>
-<guid isPermaLink="true">https://demo.custom.test/6QQROrBRNNgx/</guid>
+<link>https://doonly1.github.io/6QQROrBRNNgx/</link>
+<guid isPermaLink="true">https://doonly1.github.io/6QQROrBRNNgx/</guid>
 <pubDate>Mon, 11 Sep 2023 16:00:00 GMT</pubDate>
 <description>电能与热能，都是电子的动能</description>
 
@@ -162,8 +162,8 @@
 
 <item>
 <title>假如我是一个原子</title>
-<link>https://demo.custom.test/lKUkYko8gLMx/</link>
-<guid isPermaLink="true">https://demo.custom.test/lKUkYko8gLMx/</guid>
+<link>https://doonly1.github.io/lKUkYko8gLMx/</link>
+<guid isPermaLink="true">https://doonly1.github.io/lKUkYko8gLMx/</guid>
 <pubDate>Tue, 05 Sep 2023 16:00:00 GMT</pubDate>
 <description>假如我是一个原子</description>
 
@@ -173,8 +173,8 @@
 
 <item>
 <title>意识的五大模块</title>
-<link>https://demo.custom.test/TEHAG7nIUKDA/</link>
-<guid isPermaLink="true">https://demo.custom.test/TEHAG7nIUKDA/</guid>
+<link>https://doonly1.github.io/TEHAG7nIUKDA/</link>
+<guid isPermaLink="true">https://doonly1.github.io/TEHAG7nIUKDA/</guid>
 <pubDate>Sun, 16 Jul 2023 16:00:00 GMT</pubDate>
 <description>意识的五大模块</description>
 
@@ -184,8 +184,8 @@
 
 <item>
 <title>如何提高电磁能利用率?</title>
-<link>https://demo.custom.test/v7EfP2vqD9Yy/</link>
-<guid isPermaLink="true">https://demo.custom.test/v7EfP2vqD9Yy/</guid>
+<link>https://doonly1.github.io/v7EfP2vqD9Yy/</link>
+<guid isPermaLink="true">https://doonly1.github.io/v7EfP2vqD9Yy/</guid>
 <pubDate>Wed, 07 Jun 2023 16:00:00 GMT</pubDate>
 <description>如何提高电磁能利用率?</description>
 
@@ -195,8 +195,8 @@
 
 <item>
 <title>个体在群体中的特征</title>
-<link>https://demo.custom.test/lkikZMWiAzJP/</link>
-<guid isPermaLink="true">https://demo.custom.test/lkikZMWiAzJP/</guid>
+<link>https://doonly1.github.io/lkikZMWiAzJP/</link>
+<guid isPermaLink="true">https://doonly1.github.io/lkikZMWiAzJP/</guid>
 <pubDate>Fri, 16 Sep 2022 16:00:00 GMT</pubDate>
 <description>个体在群体中的特征</description>
 
@@ -206,8 +206,8 @@
 
 <item>
 <title>概率与必然</title>
-<link>https://demo.custom.test/XyE23VT5xS18/</link>
-<guid isPermaLink="true">https://demo.custom.test/XyE23VT5xS18/</guid>
+<link>https://doonly1.github.io/XyE23VT5xS18/</link>
+<guid isPermaLink="true">https://doonly1.github.io/XyE23VT5xS18/</guid>
 <pubDate>Tue, 13 Sep 2022 16:00:00 GMT</pubDate>
 <description>概率与必然</description>
 
@@ -217,8 +217,8 @@
 
 <item>
 <title>古代文人</title>
-<link>https://demo.custom.test/aXQM54N4U5kn/</link>
-<guid isPermaLink="true">https://demo.custom.test/aXQM54N4U5kn/</guid>
+<link>https://doonly1.github.io/aXQM54N4U5kn/</link>
+<guid isPermaLink="true">https://doonly1.github.io/aXQM54N4U5kn/</guid>
 <pubDate>Tue, 04 Jun 2019 16:00:00 GMT</pubDate>
 <description>古代文人</description>
 
@@ -228,8 +228,8 @@
 
 <item>
 <title>朝代更替</title>
-<link>https://demo.custom.test/hHe5MAtvJUOb/</link>
-<guid isPermaLink="true">https://demo.custom.test/hHe5MAtvJUOb/</guid>
+<link>https://doonly1.github.io/hHe5MAtvJUOb/</link>
+<guid isPermaLink="true">https://doonly1.github.io/hHe5MAtvJUOb/</guid>
 <pubDate>Tue, 04 Jun 2019 16:00:00 GMT</pubDate>
 <description>朝代更替</description>
 
@@ -239,8 +239,8 @@
 
 <item>
 <title>文明的广播</title>
-<link>https://demo.custom.test/MOcBbYdBiCWE/</link>
-<guid isPermaLink="true">https://demo.custom.test/MOcBbYdBiCWE/</guid>
+<link>https://doonly1.github.io/MOcBbYdBiCWE/</link>
+<guid isPermaLink="true">https://doonly1.github.io/MOcBbYdBiCWE/</guid>
 <pubDate>Sat, 08 Dec 2018 16:00:00 GMT</pubDate>
 <description>文明的广播</description>
 
@@ -250,8 +250,8 @@
 
 <item>
 <title>脑吸收</title>
-<link>https://demo.custom.test/thZEweOJtzjM/</link>
-<guid isPermaLink="true">https://demo.custom.test/thZEweOJtzjM/</guid>
+<link>https://doonly1.github.io/thZEweOJtzjM/</link>
+<guid isPermaLink="true">https://doonly1.github.io/thZEweOJtzjM/</guid>
 <pubDate>Wed, 14 Nov 2018 16:00:00 GMT</pubDate>
 <description>脑吸收</description>
 
@@ -261,8 +261,8 @@
 
 <item>
 <title>我何曾存在</title>
-<link>https://demo.custom.test/WSxzHnHSgVsR/</link>
-<guid isPermaLink="true">https://demo.custom.test/WSxzHnHSgVsR/</guid>
+<link>https://doonly1.github.io/WSxzHnHSgVsR/</link>
+<guid isPermaLink="true">https://doonly1.github.io/WSxzHnHSgVsR/</guid>
 <pubDate>Mon, 07 Aug 2017 16:00:00 GMT</pubDate>
 <description>我何曾存在</description>
 
@@ -272,8 +272,8 @@
 
 <item>
 <title>环境起源</title>
-<link>https://demo.custom.test/dHZKr7RFbyFP/</link>
-<guid isPermaLink="true">https://demo.custom.test/dHZKr7RFbyFP/</guid>
+<link>https://doonly1.github.io/dHZKr7RFbyFP/</link>
+<guid isPermaLink="true">https://doonly1.github.io/dHZKr7RFbyFP/</guid>
 <pubDate>Thu, 26 May 2016 16:00:00 GMT</pubDate>
 <description>环境起源</description>
 
@@ -283,8 +283,8 @@
 
 <item>
 <title>我这个生命不特殊</title>
-<link>https://demo.custom.test/6GPxWZtG4o0y/</link>
-<guid isPermaLink="true">https://demo.custom.test/6GPxWZtG4o0y/</guid>
+<link>https://doonly1.github.io/6GPxWZtG4o0y/</link>
+<guid isPermaLink="true">https://doonly1.github.io/6GPxWZtG4o0y/</guid>
 <pubDate>Thu, 12 May 2016 16:00:00 GMT</pubDate>
 <description>我这个生命不特殊</description>
 
@@ -294,8 +294,8 @@
 
 <item>
 <title>物与我</title>
-<link>https://demo.custom.test/GJf3ys7xEQzx/</link>
-<guid isPermaLink="true">https://demo.custom.test/GJf3ys7xEQzx/</guid>
+<link>https://doonly1.github.io/GJf3ys7xEQzx/</link>
+<guid isPermaLink="true">https://doonly1.github.io/GJf3ys7xEQzx/</guid>
 <pubDate>Mon, 14 Dec 2015 16:00:00 GMT</pubDate>
 <description>物与我</description>
 
@@ -305,8 +305,8 @@
 
 <item>
 <title>意识的五大模块导图</title>
-<link>https://demo.custom.test/umsM32AZgysL/</link>
-<guid isPermaLink="true">https://demo.custom.test/umsM32AZgysL/</guid>
+<link>https://doonly1.github.io/umsM32AZgysL/</link>
+<guid isPermaLink="true">https://doonly1.github.io/umsM32AZgysL/</guid>
 <pubDate></pubDate>
 <description>意识的五大模块导图</description>
 
