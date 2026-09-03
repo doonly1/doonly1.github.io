@@ -5,15 +5,15 @@
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
 <title>蜗牛</title>
-<link>https://doonly1.github.io/home/</link>
+<link>https://demo.custom.test/home/</link>
 <description>基于 Trilium Notes 的极简阅读站点</description>
 <language>zh-CN</language>
-<atom:link href="https://doonly1.github.io/rss/" rel="self" type="application/rss+xml"/>
+<atom:link href="https://demo.custom.test/rss/" rel="self" type="application/rss+xml"/>
 
 <item>
 <title>Links</title>
-<link>https://doonly1.github.io/fLinks/</link>
-<guid isPermaLink="true">https://doonly1.github.io/fLinks/</guid>
+<link>https://demo.custom.test/fLinks/</link>
+<guid isPermaLink="true">https://demo.custom.test/fLinks/</guid>
 <pubDate>Mon, 10 Aug 2026 16:00:00 GMT</pubDate>
 <description>Links</description>
 
@@ -21,8 +21,8 @@
 
 <item>
 <title>Eco</title>
-<link>https://doonly1.github.io/ecology/</link>
-<guid isPermaLink="true">https://doonly1.github.io/ecology/</guid>
+<link>https://demo.custom.test/ecology/</link>
+<guid isPermaLink="true">https://demo.custom.test/ecology/</guid>
 <pubDate>Mon, 10 Aug 2026 16:00:00 GMT</pubDate>
 <description>Eco</description>
 
@@ -30,8 +30,8 @@
 
 <item>
 <title>Wenxin Theme 介绍</title>
-<link>https://doonly1.github.io/Guu1Vh90bC7F/</link>
-<guid isPermaLink="true">https://doonly1.github.io/Guu1Vh90bC7F/</guid>
+<link>https://demo.custom.test/Guu1Vh90bC7F/</link>
+<guid isPermaLink="true">https://demo.custom.test/Guu1Vh90bC7F/</guid>
 <pubDate>Thu, 30 Jul 2026 02:00:00 GMT</pubDate>
 <description>将 Hugo 主题文心改造为 Trilium Notes 的独立 Share 主题模板</description>
 
@@ -41,8 +41,8 @@
 
 <item>
 <title>磁场的量子本质</title>
-<link>https://doonly1.github.io/UycwZP7x0TDR/</link>
-<guid isPermaLink="true">https://doonly1.github.io/UycwZP7x0TDR/</guid>
+<link>https://demo.custom.test/UycwZP7x0TDR/</link>
+<guid isPermaLink="true">https://demo.custom.test/UycwZP7x0TDR/</guid>
 <pubDate>Mon, 06 Jul 2026 16:00:00 GMT</pubDate>
 <description>磁场的量子本质</description>
 
@@ -52,8 +52,8 @@
 
 <item>
 <title>水的浮力微观解释</title>
-<link>https://doonly1.github.io/A1pYNx3TVt3E/</link>
-<guid isPermaLink="true">https://doonly1.github.io/A1pYNx3TVt3E/</guid>
+<link>https://demo.custom.test/A1pYNx3TVt3E/</link>
+<guid isPermaLink="true">https://demo.custom.test/A1pYNx3TVt3E/</guid>
 <pubDate>Fri, 23 Jan 2026 16:00:00 GMT</pubDate>
 <description>水的浮力微观解释</description>
 
@@ -63,8 +63,8 @@
 
 <item>
 <title>狭义相对论有哪些不完美的地方</title>
-<link>https://doonly1.github.io/k1mB0haAFLzp/</link>
-<guid isPermaLink="true">https://doonly1.github.io/k1mB0haAFLzp/</guid>
+<link>https://demo.custom.test/k1mB0haAFLzp/</link>
+<guid isPermaLink="true">https://demo.custom.test/k1mB0haAFLzp/</guid>
 <pubDate>Wed, 03 Dec 2025 16:00:00 GMT</pubDate>
 <description>狭义相对论有哪些不完美的地方</description>
 
@@ -74,8 +74,8 @@
 
 <item>
 <title>宏观世界会反作用于量子世界吗？</title>
-<link>https://doonly1.github.io/dEXIwU4pgQml/</link>
-<guid isPermaLink="true">https://doonly1.github.io/dEXIwU4pgQml/</guid>
+<link>https://demo.custom.test/dEXIwU4pgQml/</link>
+<guid isPermaLink="true">https://demo.custom.test/dEXIwU4pgQml/</guid>
 <pubDate>Mon, 27 Oct 2025 16:00:00 GMT</pubDate>
 <description>宏观世界会反作用于量子世界吗？</description>
 
@@ -85,8 +85,8 @@
 
 <item>
 <title>相对性计算</title>
-<link>https://doonly1.github.io/gwZfEOkYaKd7/</link>
-<guid isPermaLink="true">https://doonly1.github.io/gwZfEOkYaKd7/</guid>
+<link>https://demo.custom.test/gwZfEOkYaKd7/</link>
+<guid isPermaLink="true">https://demo.custom.test/gwZfEOkYaKd7/</guid>
 <pubDate>Sun, 22 Jun 2025 16:00:00 GMT</pubDate>
 <description>相对性计算</description>
 
@@ -96,8 +96,8 @@
 
 <item>
 <title>何为美</title>
-<link>https://doonly1.github.io/R1KSaCmisrPA/</link>
-<guid isPermaLink="true">https://doonly1.github.io/R1KSaCmisrPA/</guid>
+<link>https://demo.custom.test/R1KSaCmisrPA/</link>
+<guid isPermaLink="true">https://demo.custom.test/R1KSaCmisrPA/</guid>
 <pubDate>Wed, 08 May 2024 16:00:00 GMT</pubDate>
 <description>何为美</description>
 
@@ -107,8 +107,8 @@
 
 <item>
 <title>量子动因</title>
-<link>https://doonly1.github.io/8ARePrJFYiHr/</link>
-<guid isPermaLink="true">https://doonly1.github.io/8ARePrJFYiHr/</guid>
+<link>https://demo.custom.test/8ARePrJFYiHr/</link>
+<guid isPermaLink="true">https://demo.custom.test/8ARePrJFYiHr/</guid>
 <pubDate>Wed, 17 Apr 2024 16:00:00 GMT</pubDate>
 <description>量子动因</description>
 
@@ -118,8 +118,8 @@
 
 <item>
 <title>食物链顶端的景象</title>
-<link>https://doonly1.github.io/4KSrFXPQjRmQ/</link>
-<guid isPermaLink="true">https://doonly1.github.io/4KSrFXPQjRmQ/</guid>
+<link>https://demo.custom.test/4KSrFXPQjRmQ/</link>
+<guid isPermaLink="true">https://demo.custom.test/4KSrFXPQjRmQ/</guid>
 <pubDate>Sat, 13 Apr 2024 16:00:00 GMT</pubDate>
 <description>食物链顶端的景象</description>
 
@@ -129,8 +129,8 @@
 
 <item>
 <title>重力是无法感受的</title>
-<link>https://doonly1.github.io/z5C9nOL5UXhA/</link>
-<guid isPermaLink="true">https://doonly1.github.io/z5C9nOL5UXhA/</guid>
+<link>https://demo.custom.test/z5C9nOL5UXhA/</link>
+<guid isPermaLink="true">https://demo.custom.test/z5C9nOL5UXhA/</guid>
 <pubDate>Tue, 26 Sep 2023 16:00:00 GMT</pubDate>
 <description>重力是无法感受的</description>
 
@@ -140,8 +140,8 @@
 
 <item>
 <title>相对运动如何发生?</title>
-<link>https://doonly1.github.io/RK5GquecFt6P/</link>
-<guid isPermaLink="true">https://doonly1.github.io/RK5GquecFt6P/</guid>
+<link>https://demo.custom.test/RK5GquecFt6P/</link>
+<guid isPermaLink="true">https://demo.custom.test/RK5GquecFt6P/</guid>
 <pubDate>Wed, 13 Sep 2023 16:00:00 GMT</pubDate>
 <description>相对运动如何发生?</description>
 
@@ -151,8 +151,8 @@
 
 <item>
 <title>电能与热能，都是电子的动能</title>
-<link>https://doonly1.github.io/6QQROrBRNNgx/</link>
-<guid isPermaLink="true">https://doonly1.github.io/6QQROrBRNNgx/</guid>
+<link>https://demo.custom.test/6QQROrBRNNgx/</link>
+<guid isPermaLink="true">https://demo.custom.test/6QQROrBRNNgx/</guid>
 <pubDate>Mon, 11 Sep 2023 16:00:00 GMT</pubDate>
 <description>电能与热能，都是电子的动能</description>
 
@@ -162,8 +162,8 @@
 
 <item>
 <title>假如我是一个原子</title>
-<link>https://doonly1.github.io/lKUkYko8gLMx/</link>
-<guid isPermaLink="true">https://doonly1.github.io/lKUkYko8gLMx/</guid>
+<link>https://demo.custom.test/lKUkYko8gLMx/</link>
+<guid isPermaLink="true">https://demo.custom.test/lKUkYko8gLMx/</guid>
 <pubDate>Tue, 05 Sep 2023 16:00:00 GMT</pubDate>
 <description>假如我是一个原子</description>
 
@@ -173,8 +173,8 @@
 
 <item>
 <title>意识的五大模块</title>
-<link>https://doonly1.github.io/TEHAG7nIUKDA/</link>
-<guid isPermaLink="true">https://doonly1.github.io/TEHAG7nIUKDA/</guid>
+<link>https://demo.custom.test/TEHAG7nIUKDA/</link>
+<guid isPermaLink="true">https://demo.custom.test/TEHAG7nIUKDA/</guid>
 <pubDate>Sun, 16 Jul 2023 16:00:00 GMT</pubDate>
 <description>意识的五大模块</description>
 
@@ -184,8 +184,8 @@
 
 <item>
 <title>如何提高电磁能利用率?</title>
-<link>https://doonly1.github.io/v7EfP2vqD9Yy/</link>
-<guid isPermaLink="true">https://doonly1.github.io/v7EfP2vqD9Yy/</guid>
+<link>https://demo.custom.test/v7EfP2vqD9Yy/</link>
+<guid isPermaLink="true">https://demo.custom.test/v7EfP2vqD9Yy/</guid>
 <pubDate>Wed, 07 Jun 2023 16:00:00 GMT</pubDate>
 <description>如何提高电磁能利用率?</description>
 
@@ -195,8 +195,8 @@
 
 <item>
 <title>个体在群体中的特征</title>
-<link>https://doonly1.github.io/lkikZMWiAzJP/</link>
-<guid isPermaLink="true">https://doonly1.github.io/lkikZMWiAzJP/</guid>
+<link>https://demo.custom.test/lkikZMWiAzJP/</link>
+<guid isPermaLink="true">https://demo.custom.test/lkikZMWiAzJP/</guid>
 <pubDate>Fri, 16 Sep 2022 16:00:00 GMT</pubDate>
 <description>个体在群体中的特征</description>
 
@@ -206,8 +206,8 @@
 
 <item>
 <title>概率与必然</title>
-<link>https://doonly1.github.io/XyE23VT5xS18/</link>
-<guid isPermaLink="true">https://doonly1.github.io/XyE23VT5xS18/</guid>
+<link>https://demo.custom.test/XyE23VT5xS18/</link>
+<guid isPermaLink="true">https://demo.custom.test/XyE23VT5xS18/</guid>
 <pubDate>Tue, 13 Sep 2022 16:00:00 GMT</pubDate>
 <description>概率与必然</description>
 
@@ -217,8 +217,8 @@
 
 <item>
 <title>古代文人</title>
-<link>https://doonly1.github.io/aXQM54N4U5kn/</link>
-<guid isPermaLink="true">https://doonly1.github.io/aXQM54N4U5kn/</guid>
+<link>https://demo.custom.test/aXQM54N4U5kn/</link>
+<guid isPermaLink="true">https://demo.custom.test/aXQM54N4U5kn/</guid>
 <pubDate>Tue, 04 Jun 2019 16:00:00 GMT</pubDate>
 <description>古代文人</description>
 
@@ -228,19 +228,19 @@
 
 <item>
 <title>朝代更替</title>
-<link>https://doonly1.github.io/hHe5MAtvJUOb/</link>
-<guid isPermaLink="true">https://doonly1.github.io/hHe5MAtvJUOb/</guid>
+<link>https://demo.custom.test/hHe5MAtvJUOb/</link>
+<guid isPermaLink="true">https://demo.custom.test/hHe5MAtvJUOb/</guid>
 <pubDate>Tue, 04 Jun 2019 16:00:00 GMT</pubDate>
 <description>朝代更替</description>
 
-<content:encoded><![CDATA[&lt;ul&gt;&lt;li data-list-item-id=&#34;ec24090f9aa7f7725134c74ff819b142e&#34;&gt;黄帝（别称：姬轩辕、&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=8856140&amp;amp;g_ut=3&#34;&gt;有熊氏&lt;/a&gt;、帝鸿氏，公元前2717年-公元前2599年），号轩辕氏，本姓公孙，后改姬姓，古华夏部落联盟首领，中国远古时代华夏民族的共主，五帝之首[1]，被尊为中华“&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=7825776&amp;amp;g_ut=3&#34;&gt;人文初祖&lt;/a&gt;”。史载黄帝因有土德之瑞，故号黄帝。黄帝以统一华夏部落与征服东夷、&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=465341&amp;amp;g_ut=3&#34;&gt;九黎族&lt;/a&gt;而统一中华的伟绩载入史册。黄帝在位期间，播百谷草木，大力发展生产，始制衣冠、建舟车、制音律、创医学等。&lt;/li&gt;&lt;li data-list-item-id=&#34;ee2724e345c24dee6a8db44857189ee00&#34;&gt;&lt;p&gt;颛顼（前2514～前2437）中国历史中的一位传说人物，为五帝之一。《&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=21344&amp;amp;g_ut=3&#34;&gt;史记&lt;/a&gt;》载：“黄帝崩，葬桥山。其孙昌意之子&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=167214&amp;amp;g_ut=3&#34;&gt;高阳&lt;/a&gt;立，是为颛顼帝也”。 颛顼，上古帝王，系黄帝之孙，二十岁即帝位，初国于高阳，建都于高阳古城(今河北省高阳县），故又称其为高阳氏，今旧城村，周围九里。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A5%B4%E9%9A%B6%E7%A4%BE%E4%BC%9A&#34;&gt;奴隶社会&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e0eca08d73756f6cb3a5b116190748197&#34;&gt;虞朝：约前36世纪初-约前21世纪初 有虞（今河南省商丘市虞城县） 黄帝 颛顼 虞幕&lt;/li&gt;&lt;li data-list-item-id=&#34;e638e8ef1790215cf008f3bf17077ddc7&#34;&gt;夏朝：约前2070年-前1600年 &lt;a href=&#34;https://baike.baidu.com/item/%E6%96%9F%E9%84%A9/67566&#34;&gt;斟鄩&lt;/a&gt;阳城（今河南洛阳） （今河南登封）夏王禹 夏王启 夏王少康&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;有穷：前1981年-前1973年 鉏（今河南滑县） 有穷王夷羿&lt;/p&gt;&lt;p&gt;寒朝：前1973年-前1933年 寒水（今山东潍坊）寒王寒浞&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ef7ae3d66bf03bcb9c73aee2d0e191e8e&#34;&gt;商（殷）朝：前1600年-前1046年&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;前1600年-前1300年 亳（今河南&lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86%E4%B8%98/37047&#34;&gt;商丘&lt;/a&gt;） &lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86&#34;&gt;商&lt;/a&gt;王汤&lt;/p&gt;&lt;p&gt;前1300年-前1046年 亳（今河南&lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86%E4%B8%98/37047&#34;&gt;商丘&lt;/a&gt;），殷（今河南安阳）&amp;nbsp; 殷王&lt;a href=&#34;https://baike.baidu.com/item/%E7%9B%98%E5%BA%9A&#34;&gt;盘庚&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ecfe7cf59c4a4c18501d5c2e99a9d441a&#34;&gt;周朝：前1046年-前256年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8&#34;&gt;西周&lt;/a&gt;：前1046年-前771年 &lt;a href=&#34;https://baike.baidu.com/item/%E9%95%90/13015274&#34;&gt;镐&lt;/a&gt;京（今陕西西安）西周文王姬昌 西&lt;a href=&#34;https://baike.baidu.com/item/%E5%91%A8%E6%AD%A6%E7%8E%8B&#34;&gt;周武王&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A7%AC%E5%8F%91&#34;&gt;姬发&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E5%91%A8&#34;&gt;东周&lt;/a&gt;：前770年-前256年 &lt;a href=&#34;https://baike.baidu.com/item/%E6%B4%9B%E9%82%91&#34;&gt;洛邑&lt;/a&gt;（今河南洛阳）东&lt;a href=&#34;https://baike.baidu.com/item/%E5%91%A8%E5%B9%B3%E7%8E%8B&#34;&gt;周平王&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A7%AC%E5%AE%9C%E8%87%BC&#34;&gt;姬宜臼&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——春秋：前770年-前476年&lt;/p&gt;&lt;p&gt;——战国：前475年-前221年&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%B0%81%E5%BB%BA%E7%A4%BE%E4%BC%9A&#34;&gt;封建社会&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e972e54d39257e15b5183dac93b85a54a&#34;&gt;秦朝：前221年-前206年咸阳（今陕西咸阳） &lt;a href=&#34;https://baike.baidu.com/item/%E7%A7%A6%E5%A7%8B%E7%9A%87&#34;&gt;秦始皇&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AC%B4%E6%94%BF&#34;&gt;嬴政&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;西楚：前206年-前202年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BD%AD%E5%9F%8E/3802&#34;&gt;彭城&lt;/a&gt;（今江苏&lt;a href=&#34;https://baike.baidu.com/item/%E5%BE%90%E5%B7%9E/6250&#34;&gt;徐州&lt;/a&gt;） &lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E6%A5%9A%E9%9C%B8%E7%8E%8B&#34;&gt;西楚霸王&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%A1%B9%E7%BE%BD&#34;&gt;项羽&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e1d39df1f58e6ab868c71c739215549da&#34;&gt;西汉：前202年-公元8年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89/31540&#34;&gt;长安&lt;/a&gt;（今陕西西安）西&lt;a href=&#34;https://baike.baidu.com/item/%E6%B1%89%E9%AB%98%E7%A5%96&#34;&gt;汉高祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%88%98%E9%82%A6&#34;&gt;刘邦&lt;/a&gt;。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%96%B0%E6%9C%9D&#34;&gt;新朝&lt;/a&gt;：公元8年-公元23年长安（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E6%96%B0/6995537&#34;&gt;新&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%AA%E7%A5%96&#34;&gt;太祖&lt;/a&gt;王莽&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E7%8E%84%E6%B1%89&#34;&gt;玄汉&lt;/a&gt;：公元23年-公元25年长安（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E6%9B%B4%E5%A7%8B%E5%B8%9D&#34;&gt;更始帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%88%98%E7%8E%84&#34;&gt;刘玄&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ed5dc38b2ecdcec4bfc5f4b386bcdb3d4&#34;&gt;东汉：公元25年-公元220年洛阳（今河南洛阳）东&lt;a href=&#34;https://baike.baidu.com/item/%E6%B1%89%E5%85%89%E6%AD%A6%E5%B8%9D%E5%88%98%E7%A7%80&#34;&gt;汉光武帝刘秀&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;三国时期：220年-280年&lt;/p&gt;&lt;p&gt;曹魏：220年-265年洛阳（今河南洛阳）魏武帝曹操 &lt;a href=&#34;https://baike.baidu.com/item/%E9%AD%8F%E6%96%87%E5%B8%9D&#34;&gt;魏文帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9B%B9%E4%B8%95&#34;&gt;曹丕&lt;/a&gt;&lt;/p&gt;&lt;p&gt;蜀汉：221年-263年成都（今四川成都） 蜀汉&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%AD%E7%83%88%E5%B8%9D&#34;&gt;昭烈帝&lt;/a&gt;刘备 后主刘禅&lt;/p&gt;&lt;p&gt;孙吴：222年-280年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BB%BA%E4%B8%9A&#34;&gt;建业&lt;/a&gt;（今江苏南京）&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%B4%E5%A4%A7%E5%B8%9D&#34;&gt;吴大帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AD%99%E6%9D%83&#34;&gt;孙权&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ed854298615fac78f9fe578c12fa05aa5&#34;&gt;西晋：266年-316年洛阳（今河南洛阳）西&lt;a href=&#34;https://baike.baidu.com/item/%E6%99%8B%E6%AD%A6%E5%B8%9D%E5%8F%B8%E9%A9%AC%E7%82%8E&#34;&gt;晋武帝司马炎&lt;/a&gt;&lt;/li&gt;&lt;li data-list-item-id=&#34;e578eb9018a2f5347bd58ebee086e021b&#34;&gt;东晋：317年-420年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BB%BA%E5%BA%B7/8714&#34;&gt;建康&lt;/a&gt;（今江苏南京）东&lt;a href=&#34;https://baike.baidu.com/item/%E6%99%8B%E5%85%83%E5%B8%9D&#34;&gt;晋元帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%8F%B8%E9%A9%AC%E7%9D%BF&#34;&gt;司马睿&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;十六国：304年-420年&lt;/p&gt;&lt;p&gt;——十六国末期：420年-439年&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ec2d1505685324178cf2ab3103e1293b7&#34;&gt;南北朝：386年-589年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%8D%97%E6%9C%9D&#34;&gt;南朝&lt;/a&gt;：420年-589年&lt;/p&gt;&lt;p&gt;刘宋：420年-479年建康（今江苏南京）刘&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B%E6%AD%A6%E5%B8%9D%E5%88%98%E8%A3%95&#34;&gt;宋武帝刘裕&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南齐：479年-502年建康（今江苏南京）南&lt;a href=&#34;https://baike.baidu.com/item/%E9%BD%90%E9%AB%98%E5%B8%9D&#34;&gt;齐高帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%90%A7%E9%81%93%E6%88%90&#34;&gt;萧道成&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南梁：502年-557年建康（今江苏南京）&lt;a href=&#34;https://baike.baidu.com/item/%E6%A2%81%E6%AD%A6%E5%B8%9D&#34;&gt;梁武帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%90%A7%E8%A1%8D&#34;&gt;萧衍&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南陈：557年-589年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BB%BA%E5%BA%B7/8714&#34;&gt;建康&lt;/a&gt;（今江苏南京）&lt;a href=&#34;https://baike.baidu.com/item/%E9%99%88%E6%AD%A6%E5%B8%9D&#34;&gt;陈武帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%99%88%E9%9C%B8%E5%85%88&#34;&gt;陈霸先&lt;/a&gt;&lt;/p&gt;&lt;p&gt;北朝：386年-589年&lt;/p&gt;&lt;p&gt;北魏中后期：420年-557年平城 洛阳（今河南洛阳）（今山西大同）&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%AD%8F%E9%81%93%E6%AD%A6%E5%B8%9D&#34;&gt;北魏道武帝&lt;/a&gt;拓跋珪 北魏孝文帝元宏&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E9%AD%8F&#34;&gt;东魏&lt;/a&gt;：534年-550年&lt;a href=&#34;https://baike.baidu.com/item/%E9%82%BA%E5%9F%8E&#34;&gt;邺城&lt;/a&gt;（今河北&lt;a href=&#34;https://baike.baidu.com/item/%E9%82%BA%E9%95%87&#34;&gt;邺镇&lt;/a&gt;） &lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E9%AD%8F%E5%AD%9D%E9%9D%99%E5%B8%9D&#34;&gt;东魏孝静帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83%E5%96%84%E8%A7%81&#34;&gt;元善见&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E9%AD%8F&#34;&gt;西魏&lt;/a&gt;：532年-556年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89/31540&#34;&gt;长安&lt;/a&gt;（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E9%AD%8F%E6%96%87%E5%B8%9D&#34;&gt;西魏文帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83%E5%AE%9D%E7%82%AC&#34;&gt;元宝炬&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%BD%90&#34;&gt;北齐&lt;/a&gt;：550年-577年邺城（今河北邺镇） &lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%BD%90%E6%96%87%E5%AE%A3%E5%B8%9D&#34;&gt;北齐文宣帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%AB%98%E6%B4%8B&#34;&gt;高洋&lt;/a&gt;&lt;/p&gt;&lt;p&gt;北周：557年-581年长安（今陕西西安） 北周孝闵帝&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%87%E6%96%87%E8%A7%89&#34;&gt;宇文觉&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ef02cb9b62c73c56a0ad18fd7d79987a9&#34;&gt;隋朝：581年-618年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89&#34;&gt;长安&lt;/a&gt;（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E9%9A%8B%E6%96%87%E5%B8%9D&#34;&gt;隋文帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9D%A8%E5%9D%9A&#34;&gt;杨坚&lt;/a&gt;&lt;/li&gt;&lt;li data-list-item-id=&#34;ef7bda74151f97602ac1591756f9cb732&#34;&gt;唐朝：618年-907年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89/31540&#34;&gt;长安&lt;/a&gt;（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E5%94%90%E9%AB%98%E7%A5%96&#34;&gt;唐高祖&lt;/a&gt;李渊 唐中宗李显&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;武周：690年-705年神都洛阳（今河南洛阳）武周圣神皇帝武则天&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e83d3c776a6c9de6c426072af1f90f0f1&#34;&gt;五代：907年-960年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%A2%81&#34;&gt;后梁&lt;/a&gt;：907年-923年&lt;a href=&#34;https://baike.baidu.com/item/%E6%B1%B4&#34;&gt;汴&lt;/a&gt;京（今河南开封） &lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%A2%81%E5%A4%AA%E7%A5%96&#34;&gt;后梁太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9C%B1%E6%B8%A9&#34;&gt;朱温&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%94%90&#34;&gt;后唐&lt;/a&gt;：923年-936年洛阳（今河南洛阳）后&lt;a href=&#34;https://baike.baidu.com/item/%E5%94%90%E5%BA%84%E5%AE%97&#34;&gt;唐庄宗&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9D%8E%E5%AD%98%E5%8B%96&#34;&gt;李存勖&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%99%8B&#34;&gt;后晋&lt;/a&gt;：936年-947年汴京（今河南开封） &lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%99%8B%E9%AB%98%E7%A5%96&#34;&gt;后晋高祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E7%9F%B3%E6%95%AC%E7%91%AD&#34;&gt;石敬瑭&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——后汉：947年-950年汴京（今河南开封） &lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%B1%89&#34;&gt;后汉&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%AB%98%E7%A5%96&#34;&gt;高祖&lt;/a&gt;刘知远（&lt;a href=&#34;https://baike.baidu.com/item/%E6%9A%A0&#34;&gt;暠&lt;/a&gt;）&lt;/p&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%91%A8&#34;&gt;后周&lt;/a&gt;：951年-960年汴京（今河南开封）后&lt;a href=&#34;https://baike.baidu.com/item/%E5%91%A8%E5%A4%AA%E7%A5%96&#34;&gt;周太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%83%AD%E5%A8%81&#34;&gt;郭威&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e5886e5e6552867d649552c78d2412b92&#34;&gt;十国：907年-979年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%BE%BD%E6%9C%9D&#34;&gt;辽朝&lt;/a&gt;（&lt;a href=&#34;https://baike.baidu.com/item/%E5%A5%91%E4%B8%B9/83239&#34;&gt;契丹&lt;/a&gt;）：907年-1125年&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%8A%E4%BA%AC&#34;&gt;上京&lt;/a&gt;（今内蒙古&lt;a href=&#34;https://baike.baidu.com/item/%E5%B7%B4%E6%9E%97%E5%B7%A6%E6%97%97&#34;&gt;巴林左旗&lt;/a&gt;）&lt;a href=&#34;https://baike.baidu.com/item/%E8%BE%BD%E5%A4%AA%E7%A5%96&#34;&gt;辽太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%80%B6%E5%BE%8B%E9%98%BF%E4%BF%9D%E6%9C%BA&#34;&gt;耶律阿保机&lt;/a&gt;&lt;/p&gt;&lt;p&gt;西辽：1123年-1218年，都虎思翰耳朵，辽德宗耶律大石&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e1f484e88a137a90fc020984ce5892a2d&#34;&gt;宋朝：960年-1279年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;北宋：960年-1127年东京（今河南开封）北&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B%E5%A4%AA%E7%A5%96&#34;&gt;宋太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B5%B5%E5%8C%A1%E8%83%A4&#34;&gt;赵匡胤&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南宋：1127年-1279年&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%B4%E5%AE%89&#34;&gt;临安&lt;/a&gt;（今浙江杭州）南&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B%E9%AB%98%E5%AE%97&#34;&gt;宋高宗&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B5%B5%E6%9E%84&#34;&gt;赵构&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%A4%8F&#34;&gt;西夏&lt;/a&gt;：1038-1227年兴庆（中兴）（今宁夏银川）西夏景宗&lt;a href=&#34;https://baike.baidu.com/item/%E6%9D%8E%E5%85%83%E6%98%8A&#34;&gt;李元昊&lt;/a&gt;&lt;/p&gt;&lt;p&gt;金朝：1115年-1234年&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%AD%E4%BA%AC&#34;&gt;中京&lt;/a&gt;（今北京市）&lt;a href=&#34;https://baike.baidu.com/item/%E9%87%91%E5%A4%AA%E7%A5%96&#34;&gt;金太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8C%E9%A2%9C%E9%98%BF%E9%AA%A8%E6%89%93&#34;&gt;完颜阿骨打&lt;/a&gt;&lt;/p&gt;&lt;p&gt;大蒙古国：1206年-1260年曲雕阿兰（今蒙古国肯特省）蒙古（元）太祖成吉思汗孛儿只斤·铁木真&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ea45f68aedba85601fc7e9cd2f46aa8d0&#34;&gt;元朝：&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;元：1271年-1368年&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%A7%E9%83%BD&#34;&gt;大都&lt;/a&gt;（今北京市）元（蒙古）世祖&lt;a href=&#34;https://baike.baidu.com/item/%E5%AD%9B%E5%84%BF%E5%8F%AA%E6%96%A4%C2%B7%E5%BF%BD%E5%BF%85%E7%83%88&#34;&gt;孛儿只斤·忽必烈&lt;/a&gt;&lt;/p&gt;&lt;p&gt;北元：1368年-1489&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%A7%E9%83%BD&#34;&gt;大都&lt;/a&gt;（今北京市）&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83%E6%98%AD%E5%AE%97&#34;&gt;元昭宗&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AD%9B%E5%84%BF%E5%8F%AA%E6%96%A4%C2%B7%E7%88%B1%E7%8C%B7%E8%AF%86%E7%90%86%E7%AD%94%E8%85%8A&#34;&gt;孛儿只斤·爱猷识理答腊&lt;/a&gt;&lt;/p&gt;&lt;p&gt;韩宋：1355年-1366年，都开封 小明王韩林儿！&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e079de7c3b41c249e246c356f3a8a06ac&#34;&gt;明朝：&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;明：1368年-1644年应天（今江苏南京） 京师（今北京市）&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%8E%E5%A4%AA%E7%A5%96&#34;&gt;明太祖&lt;/a&gt;朱元璋 明成祖朱棣 南明 1644年-1683年 行在 （今北京）明安宗朱由崧&lt;/p&gt;&lt;p&gt;南明：1644-1683年&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e7e3289eac3ee70c0c6eb8d73119c1684&#34;&gt;清朝：1636年-1912年盛京 京师（今辽宁沈阳）（今北京市）清（后金）太宗爱新觉罗·皇太极 清世祖顺治皇帝爱新觉罗·福临&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;中华民国：1915年-1916年北平 （今北京市）洪宪帝袁世凯&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;更迭&lt;/p&gt;&lt;p&gt;虞→&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%8F/7129068&#34;&gt;夏&lt;/a&gt;→有穷→寒→夏→&lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86/3820941&#34;&gt;商&lt;/a&gt;（殷）→周【&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8/510056&#34;&gt;西周&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E5%91%A8&#34;&gt;东周&lt;/a&gt;（&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%A5%E7%A7%8B/982807&#34;&gt;春秋&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E6%88%98%E5%9B%BD/4819&#34;&gt;战国&lt;/a&gt;）】→&lt;a href=&#34;https://baike.baidu.com/item/%E7%A7%A6/2681927&#34;&gt;秦&lt;/a&gt;→西楚→汉【&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89&#34;&gt;西汉&lt;/a&gt;】→新→汉【玄汉、东汉、蜀汉（曹魏、孙吴）】&lt;a href=&#34;https://baike.baidu.com/item/%E2%86%92&#34;&gt;→&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%89%E5%9B%BD/5428&#34;&gt;三国&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E9%AD%8F&#34;&gt;魏&lt;/a&gt;（蜀汉、东吴）、&lt;a href=&#34;https://baike.baidu.com/item/%E8%9C%80&#34;&gt;蜀&lt;/a&gt;汉（魏朝、东吴）、东&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%B4/2742931&#34;&gt;吴&lt;/a&gt;（蜀汉、魏朝）】→&lt;a href=&#34;https://baike.baidu.com/item/%E6%99%8B/1723&#34;&gt;晋&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E6%99%8B&#34;&gt;西晋&lt;/a&gt;（东吴）、&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E6%99%8B&#34;&gt;东晋&lt;/a&gt;（北魏）】→&lt;a href=&#34;https://baike.baidu.com/item/%E5%8D%97%E5%8C%97%E6%9C%9D/6417&#34;&gt;南北朝&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E5%8D%97%E6%9C%9D/7131305&#34;&gt;南朝&lt;/a&gt;【刘&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B/4762756&#34;&gt;宋&lt;/a&gt;（北魏）、南&lt;a href=&#34;https://baike.baidu.com/item/%E9%BD%90/9618097&#34;&gt;齐&lt;/a&gt;（北魏）、&lt;a href=&#34;https://baike.baidu.com/item/%E6%A2%81/2953767&#34;&gt;梁&lt;/a&gt;（北魏、东魏、西魏、北齐）、&lt;a href=&#34;https://baike.baidu.com/item/%E9%99%88/6990894&#34;&gt;陈&lt;/a&gt;（北齐、北周、隋）】、&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E6%9C%9D/456678&#34;&gt;北朝&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%AD%8F&#34;&gt;北魏&lt;/a&gt;（刘宋、南齐、梁）、&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E9%AD%8F&#34;&gt;东魏&lt;/a&gt;（西魏、梁）、&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E9%AD%8F&#34;&gt;西魏&lt;/a&gt;（东魏、梁、北齐）、&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%BD%90&#34;&gt;北齐&lt;/a&gt;（西魏、梁、北周）、&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E5%91%A8&#34;&gt;北周&lt;/a&gt;（北齐、陈）】】→&lt;a href=&#34;https://baike.baidu.com/item/%E9%9A%8B/7217663&#34;&gt;隋&lt;/a&gt;（陈）→唐→武周→唐→&lt;a href=&#34;https://baike.baidu.com/item/%E4%BA%94%E4%BB%A3&#34;&gt;五代&lt;/a&gt;十国【&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%A2%81/66912&#34;&gt;后梁&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%94%90&#34;&gt;后唐&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%99%8B&#34;&gt;后晋&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%B1%89/7288603&#34;&gt;后汉&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%91%A8/755018&#34;&gt;后周&lt;/a&gt;、十国】→宋 (&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E5%AE%8B/396063&#34;&gt;北宋&lt;/a&gt;、南宋）辽、&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%A4%8F/698&#34;&gt;西夏&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E9%87%91/2641630&#34;&gt;金&lt;/a&gt;、→&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83/2634049&#34;&gt;元&lt;/a&gt;（大蒙古国、元、北元）→&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%8E/9473149&#34;&gt;明&lt;/a&gt;（明、南明）→清&lt;/p&gt;&lt;p&gt;朝代歌&lt;/p&gt;&lt;p&gt;夏商与西周，东周分两段。&lt;/p&gt;&lt;p&gt;春秋和战国，一统秦两汉。&lt;/p&gt;&lt;p&gt;三分魏蜀吴，两晋前后延。&lt;/p&gt;&lt;p&gt;南北朝并立，隋唐五代传。&lt;/p&gt;&lt;p&gt;宋元明清后，王朝至此完。&lt;/p&gt;]]></content:encoded>
+<content:encoded><![CDATA[&lt;blockquote&gt;&lt;p&gt;&lt;code spellcheck=&#34;false&#34;&gt;势演顶端的趋势，对抗能量耗散。&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code spellcheck=&#34;false&#34;&gt;无生命物质与能量演化规律。&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code spellcheck=&#34;false&#34;&gt;势力统一 势力崩盘 势力整合。&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code spellcheck=&#34;false&#34;&gt;统治阶级内部矛盾：斗争与利益交换，政权继承拉拢排挤存亡更迭。&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ee10dffa4ae914fbcc0933fd3f1afd6ff&#34;&gt;黄帝（别称：姬轩辕、&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=8856140&amp;amp;g_ut=3&#34;&gt;有熊氏&lt;/a&gt;、帝鸿氏，公元前2717年-公元前2599年），号轩辕氏，本姓公孙，后改姬姓，古华夏部落联盟首领，中国远古时代华夏民族的共主，五帝之首[1]，被尊为中华“&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=7825776&amp;amp;g_ut=3&#34;&gt;人文初祖&lt;/a&gt;”。史载黄帝因有土德之瑞，故号黄帝。黄帝以统一华夏部落与征服东夷、&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=465341&amp;amp;g_ut=3&#34;&gt;九黎族&lt;/a&gt;而统一中华的伟绩载入史册。黄帝在位期间，播百谷草木，大力发展生产，始制衣冠、建舟车、制音律、创医学等。&lt;/li&gt;&lt;li data-list-item-id=&#34;ee2724e345c24dee6a8db44857189ee00&#34;&gt;&lt;p&gt;颛顼（前2514～前2437）中国历史中的一位传说人物，为五帝之一。《&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=21344&amp;amp;g_ut=3&#34;&gt;史记&lt;/a&gt;》载：“黄帝崩，葬桥山。其孙昌意之子&lt;a href=&#34;https://baike.sogou.com/m/fullLemma?lid=167214&amp;amp;g_ut=3&#34;&gt;高阳&lt;/a&gt;立，是为颛顼帝也”。 颛顼，上古帝王，系黄帝之孙，二十岁即帝位，初国于高阳，建都于高阳古城(今河北省高阳县），故又称其为高阳氏，今旧城村，周围九里。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A5%B4%E9%9A%B6%E7%A4%BE%E4%BC%9A&#34;&gt;奴隶社会&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e0eca08d73756f6cb3a5b116190748197&#34;&gt;虞朝：约前36世纪初-约前21世纪初 有虞（今河南省商丘市虞城县） 黄帝 颛顼 虞幕&lt;/li&gt;&lt;li data-list-item-id=&#34;e638e8ef1790215cf008f3bf17077ddc7&#34;&gt;夏朝：约前2070年-前1600年 &lt;a href=&#34;https://baike.baidu.com/item/%E6%96%9F%E9%84%A9/67566&#34;&gt;斟鄩&lt;/a&gt;阳城（今河南洛阳） （今河南登封）夏王禹 夏王启 夏王少康&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;有穷：前1981年-前1973年 鉏（今河南滑县） 有穷王夷羿&lt;/p&gt;&lt;p&gt;寒朝：前1973年-前1933年 寒水（今山东潍坊）寒王寒浞&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ef7ae3d66bf03bcb9c73aee2d0e191e8e&#34;&gt;商（殷）朝：前1600年-前1046年&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;前1600年-前1300年 亳（今河南&lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86%E4%B8%98/37047&#34;&gt;商丘&lt;/a&gt;） &lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86&#34;&gt;商&lt;/a&gt;王汤&lt;/p&gt;&lt;p&gt;前1300年-前1046年 亳（今河南&lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86%E4%B8%98/37047&#34;&gt;商丘&lt;/a&gt;），殷（今河南安阳）&amp;nbsp; 殷王&lt;a href=&#34;https://baike.baidu.com/item/%E7%9B%98%E5%BA%9A&#34;&gt;盘庚&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ecfe7cf59c4a4c18501d5c2e99a9d441a&#34;&gt;周朝：前1046年-前256年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8&#34;&gt;西周&lt;/a&gt;：前1046年-前771年 &lt;a href=&#34;https://baike.baidu.com/item/%E9%95%90/13015274&#34;&gt;镐&lt;/a&gt;京（今陕西西安）西周文王姬昌 西&lt;a href=&#34;https://baike.baidu.com/item/%E5%91%A8%E6%AD%A6%E7%8E%8B&#34;&gt;周武王&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A7%AC%E5%8F%91&#34;&gt;姬发&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E5%91%A8&#34;&gt;东周&lt;/a&gt;：前770年-前256年 &lt;a href=&#34;https://baike.baidu.com/item/%E6%B4%9B%E9%82%91&#34;&gt;洛邑&lt;/a&gt;（今河南洛阳）东&lt;a href=&#34;https://baike.baidu.com/item/%E5%91%A8%E5%B9%B3%E7%8E%8B&#34;&gt;周平王&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A7%AC%E5%AE%9C%E8%87%BC&#34;&gt;姬宜臼&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——春秋：前770年-前476年&lt;/p&gt;&lt;p&gt;——战国：前475年-前221年&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%B0%81%E5%BB%BA%E7%A4%BE%E4%BC%9A&#34;&gt;封建社会&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e972e54d39257e15b5183dac93b85a54a&#34;&gt;秦朝：前221年-前206年咸阳（今陕西咸阳） &lt;a href=&#34;https://baike.baidu.com/item/%E7%A7%A6%E5%A7%8B%E7%9A%87&#34;&gt;秦始皇&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AC%B4%E6%94%BF&#34;&gt;嬴政&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;西楚：前206年-前202年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BD%AD%E5%9F%8E/3802&#34;&gt;彭城&lt;/a&gt;（今江苏&lt;a href=&#34;https://baike.baidu.com/item/%E5%BE%90%E5%B7%9E/6250&#34;&gt;徐州&lt;/a&gt;） &lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E6%A5%9A%E9%9C%B8%E7%8E%8B&#34;&gt;西楚霸王&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%A1%B9%E7%BE%BD&#34;&gt;项羽&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e1d39df1f58e6ab868c71c739215549da&#34;&gt;西汉：前202年-公元8年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89/31540&#34;&gt;长安&lt;/a&gt;（今陕西西安）西&lt;a href=&#34;https://baike.baidu.com/item/%E6%B1%89%E9%AB%98%E7%A5%96&#34;&gt;汉高祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%88%98%E9%82%A6&#34;&gt;刘邦&lt;/a&gt;。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%96%B0%E6%9C%9D&#34;&gt;新朝&lt;/a&gt;：公元8年-公元23年长安（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E6%96%B0/6995537&#34;&gt;新&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%AA%E7%A5%96&#34;&gt;太祖&lt;/a&gt;王莽&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E7%8E%84%E6%B1%89&#34;&gt;玄汉&lt;/a&gt;：公元23年-公元25年长安（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E6%9B%B4%E5%A7%8B%E5%B8%9D&#34;&gt;更始帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%88%98%E7%8E%84&#34;&gt;刘玄&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ed5dc38b2ecdcec4bfc5f4b386bcdb3d4&#34;&gt;东汉：公元25年-公元220年洛阳（今河南洛阳）东&lt;a href=&#34;https://baike.baidu.com/item/%E6%B1%89%E5%85%89%E6%AD%A6%E5%B8%9D%E5%88%98%E7%A7%80&#34;&gt;汉光武帝刘秀&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;三国时期：220年-280年&lt;/p&gt;&lt;p&gt;曹魏：220年-265年洛阳（今河南洛阳）魏武帝曹操 &lt;a href=&#34;https://baike.baidu.com/item/%E9%AD%8F%E6%96%87%E5%B8%9D&#34;&gt;魏文帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9B%B9%E4%B8%95&#34;&gt;曹丕&lt;/a&gt;&lt;/p&gt;&lt;p&gt;蜀汉：221年-263年成都（今四川成都） 蜀汉&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%AD%E7%83%88%E5%B8%9D&#34;&gt;昭烈帝&lt;/a&gt;刘备 后主刘禅&lt;/p&gt;&lt;p&gt;孙吴：222年-280年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BB%BA%E4%B8%9A&#34;&gt;建业&lt;/a&gt;（今江苏南京）&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%B4%E5%A4%A7%E5%B8%9D&#34;&gt;吴大帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AD%99%E6%9D%83&#34;&gt;孙权&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ed854298615fac78f9fe578c12fa05aa5&#34;&gt;西晋：266年-316年洛阳（今河南洛阳）西&lt;a href=&#34;https://baike.baidu.com/item/%E6%99%8B%E6%AD%A6%E5%B8%9D%E5%8F%B8%E9%A9%AC%E7%82%8E&#34;&gt;晋武帝司马炎&lt;/a&gt;&lt;/li&gt;&lt;li data-list-item-id=&#34;e578eb9018a2f5347bd58ebee086e021b&#34;&gt;东晋：317年-420年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BB%BA%E5%BA%B7/8714&#34;&gt;建康&lt;/a&gt;（今江苏南京）东&lt;a href=&#34;https://baike.baidu.com/item/%E6%99%8B%E5%85%83%E5%B8%9D&#34;&gt;晋元帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%8F%B8%E9%A9%AC%E7%9D%BF&#34;&gt;司马睿&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;十六国：304年-420年&lt;/p&gt;&lt;p&gt;——十六国末期：420年-439年&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ec2d1505685324178cf2ab3103e1293b7&#34;&gt;南北朝：386年-589年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%8D%97%E6%9C%9D&#34;&gt;南朝&lt;/a&gt;：420年-589年&lt;/p&gt;&lt;p&gt;刘宋：420年-479年建康（今江苏南京）刘&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B%E6%AD%A6%E5%B8%9D%E5%88%98%E8%A3%95&#34;&gt;宋武帝刘裕&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南齐：479年-502年建康（今江苏南京）南&lt;a href=&#34;https://baike.baidu.com/item/%E9%BD%90%E9%AB%98%E5%B8%9D&#34;&gt;齐高帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%90%A7%E9%81%93%E6%88%90&#34;&gt;萧道成&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南梁：502年-557年建康（今江苏南京）&lt;a href=&#34;https://baike.baidu.com/item/%E6%A2%81%E6%AD%A6%E5%B8%9D&#34;&gt;梁武帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%90%A7%E8%A1%8D&#34;&gt;萧衍&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南陈：557年-589年&lt;a href=&#34;https://baike.baidu.com/item/%E5%BB%BA%E5%BA%B7/8714&#34;&gt;建康&lt;/a&gt;（今江苏南京）&lt;a href=&#34;https://baike.baidu.com/item/%E9%99%88%E6%AD%A6%E5%B8%9D&#34;&gt;陈武帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%99%88%E9%9C%B8%E5%85%88&#34;&gt;陈霸先&lt;/a&gt;&lt;/p&gt;&lt;p&gt;北朝：386年-589年&lt;/p&gt;&lt;p&gt;北魏中后期：420年-557年平城 洛阳（今河南洛阳）（今山西大同）&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%AD%8F%E9%81%93%E6%AD%A6%E5%B8%9D&#34;&gt;北魏道武帝&lt;/a&gt;拓跋珪 北魏孝文帝元宏&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E9%AD%8F&#34;&gt;东魏&lt;/a&gt;：534年-550年&lt;a href=&#34;https://baike.baidu.com/item/%E9%82%BA%E5%9F%8E&#34;&gt;邺城&lt;/a&gt;（今河北&lt;a href=&#34;https://baike.baidu.com/item/%E9%82%BA%E9%95%87&#34;&gt;邺镇&lt;/a&gt;） &lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E9%AD%8F%E5%AD%9D%E9%9D%99%E5%B8%9D&#34;&gt;东魏孝静帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83%E5%96%84%E8%A7%81&#34;&gt;元善见&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E9%AD%8F&#34;&gt;西魏&lt;/a&gt;：532年-556年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89/31540&#34;&gt;长安&lt;/a&gt;（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E9%AD%8F%E6%96%87%E5%B8%9D&#34;&gt;西魏文帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83%E5%AE%9D%E7%82%AC&#34;&gt;元宝炬&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%BD%90&#34;&gt;北齐&lt;/a&gt;：550年-577年邺城（今河北邺镇） &lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%BD%90%E6%96%87%E5%AE%A3%E5%B8%9D&#34;&gt;北齐文宣帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%AB%98%E6%B4%8B&#34;&gt;高洋&lt;/a&gt;&lt;/p&gt;&lt;p&gt;北周：557年-581年长安（今陕西西安） 北周孝闵帝&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%87%E6%96%87%E8%A7%89&#34;&gt;宇文觉&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ef02cb9b62c73c56a0ad18fd7d79987a9&#34;&gt;隋朝：581年-618年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89&#34;&gt;长安&lt;/a&gt;（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E9%9A%8B%E6%96%87%E5%B8%9D&#34;&gt;隋文帝&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9D%A8%E5%9D%9A&#34;&gt;杨坚&lt;/a&gt;&lt;/li&gt;&lt;li data-list-item-id=&#34;ef7bda74151f97602ac1591756f9cb732&#34;&gt;唐朝：618年-907年&lt;a href=&#34;https://baike.baidu.com/item/%E9%95%BF%E5%AE%89/31540&#34;&gt;长安&lt;/a&gt;（今陕西西安）&lt;a href=&#34;https://baike.baidu.com/item/%E5%94%90%E9%AB%98%E7%A5%96&#34;&gt;唐高祖&lt;/a&gt;李渊 唐中宗李显&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;武周：690年-705年神都洛阳（今河南洛阳）武周圣神皇帝武则天&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e83d3c776a6c9de6c426072af1f90f0f1&#34;&gt;五代：907年-960年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%A2%81&#34;&gt;后梁&lt;/a&gt;：907年-923年&lt;a href=&#34;https://baike.baidu.com/item/%E6%B1%B4&#34;&gt;汴&lt;/a&gt;京（今河南开封） &lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%A2%81%E5%A4%AA%E7%A5%96&#34;&gt;后梁太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9C%B1%E6%B8%A9&#34;&gt;朱温&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%94%90&#34;&gt;后唐&lt;/a&gt;：923年-936年洛阳（今河南洛阳）后&lt;a href=&#34;https://baike.baidu.com/item/%E5%94%90%E5%BA%84%E5%AE%97&#34;&gt;唐庄宗&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E6%9D%8E%E5%AD%98%E5%8B%96&#34;&gt;李存勖&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%99%8B&#34;&gt;后晋&lt;/a&gt;：936年-947年汴京（今河南开封） &lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%99%8B%E9%AB%98%E7%A5%96&#34;&gt;后晋高祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E7%9F%B3%E6%95%AC%E7%91%AD&#34;&gt;石敬瑭&lt;/a&gt;&lt;/p&gt;&lt;p&gt;——后汉：947年-950年汴京（今河南开封） &lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%B1%89&#34;&gt;后汉&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%AB%98%E7%A5%96&#34;&gt;高祖&lt;/a&gt;刘知远（&lt;a href=&#34;https://baike.baidu.com/item/%E6%9A%A0&#34;&gt;暠&lt;/a&gt;）&lt;/p&gt;&lt;p&gt;——&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%91%A8&#34;&gt;后周&lt;/a&gt;：951年-960年汴京（今河南开封）后&lt;a href=&#34;https://baike.baidu.com/item/%E5%91%A8%E5%A4%AA%E7%A5%96&#34;&gt;周太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E9%83%AD%E5%A8%81&#34;&gt;郭威&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e5886e5e6552867d649552c78d2412b92&#34;&gt;十国：907年-979年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%BE%BD%E6%9C%9D&#34;&gt;辽朝&lt;/a&gt;（&lt;a href=&#34;https://baike.baidu.com/item/%E5%A5%91%E4%B8%B9/83239&#34;&gt;契丹&lt;/a&gt;）：907年-1125年&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%8A%E4%BA%AC&#34;&gt;上京&lt;/a&gt;（今内蒙古&lt;a href=&#34;https://baike.baidu.com/item/%E5%B7%B4%E6%9E%97%E5%B7%A6%E6%97%97&#34;&gt;巴林左旗&lt;/a&gt;）&lt;a href=&#34;https://baike.baidu.com/item/%E8%BE%BD%E5%A4%AA%E7%A5%96&#34;&gt;辽太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%80%B6%E5%BE%8B%E9%98%BF%E4%BF%9D%E6%9C%BA&#34;&gt;耶律阿保机&lt;/a&gt;&lt;/p&gt;&lt;p&gt;西辽：1123年-1218年，都虎思翰耳朵，辽德宗耶律大石&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e1f484e88a137a90fc020984ce5892a2d&#34;&gt;宋朝：960年-1279年&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;北宋：960年-1127年东京（今河南开封）北&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B%E5%A4%AA%E7%A5%96&#34;&gt;宋太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B5%B5%E5%8C%A1%E8%83%A4&#34;&gt;赵匡胤&lt;/a&gt;&lt;/p&gt;&lt;p&gt;南宋：1127年-1279年&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%B4%E5%AE%89&#34;&gt;临安&lt;/a&gt;（今浙江杭州）南&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B%E9%AB%98%E5%AE%97&#34;&gt;宋高宗&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%B5%B5%E6%9E%84&#34;&gt;赵构&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%A4%8F&#34;&gt;西夏&lt;/a&gt;：1038-1227年兴庆（中兴）（今宁夏银川）西夏景宗&lt;a href=&#34;https://baike.baidu.com/item/%E6%9D%8E%E5%85%83%E6%98%8A&#34;&gt;李元昊&lt;/a&gt;&lt;/p&gt;&lt;p&gt;金朝：1115年-1234年&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%AD%E4%BA%AC&#34;&gt;中京&lt;/a&gt;（今北京市）&lt;a href=&#34;https://baike.baidu.com/item/%E9%87%91%E5%A4%AA%E7%A5%96&#34;&gt;金太祖&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8C%E9%A2%9C%E9%98%BF%E9%AA%A8%E6%89%93&#34;&gt;完颜阿骨打&lt;/a&gt;&lt;/p&gt;&lt;p&gt;大蒙古国：1206年-1260年曲雕阿兰（今蒙古国肯特省）蒙古（元）太祖成吉思汗孛儿只斤·铁木真&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;ea45f68aedba85601fc7e9cd2f46aa8d0&#34;&gt;元朝：&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;元：1271年-1368年&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%A7%E9%83%BD&#34;&gt;大都&lt;/a&gt;（今北京市）元（蒙古）世祖&lt;a href=&#34;https://baike.baidu.com/item/%E5%AD%9B%E5%84%BF%E5%8F%AA%E6%96%A4%C2%B7%E5%BF%BD%E5%BF%85%E7%83%88&#34;&gt;孛儿只斤·忽必烈&lt;/a&gt;&lt;/p&gt;&lt;p&gt;北元：1368年-1489&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%A7%E9%83%BD&#34;&gt;大都&lt;/a&gt;（今北京市）&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83%E6%98%AD%E5%AE%97&#34;&gt;元昭宗&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%AD%9B%E5%84%BF%E5%8F%AA%E6%96%A4%C2%B7%E7%88%B1%E7%8C%B7%E8%AF%86%E7%90%86%E7%AD%94%E8%85%8A&#34;&gt;孛儿只斤·爱猷识理答腊&lt;/a&gt;&lt;/p&gt;&lt;p&gt;韩宋：1355年-1366年，都开封 小明王韩林儿！&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e079de7c3b41c249e246c356f3a8a06ac&#34;&gt;明朝：&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;明：1368年-1644年应天（今江苏南京） 京师（今北京市）&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%8E%E5%A4%AA%E7%A5%96&#34;&gt;明太祖&lt;/a&gt;朱元璋 明成祖朱棣 南明 1644年-1683年 行在 （今北京）明安宗朱由崧&lt;/p&gt;&lt;p&gt;南明：1644-1683年&lt;/p&gt;&lt;ul&gt;&lt;li data-list-item-id=&#34;e7e3289eac3ee70c0c6eb8d73119c1684&#34;&gt;清朝：1636年-1912年盛京 京师（今辽宁沈阳）（今北京市）清（后金）太宗爱新觉罗·皇太极 清世祖顺治皇帝爱新觉罗·福临&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;中华民国：1915年-1916年北平 （今北京市）洪宪帝袁世凯&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;更迭&lt;/p&gt;&lt;p&gt;虞→&lt;a href=&#34;https://baike.baidu.com/item/%E5%A4%8F/7129068&#34;&gt;夏&lt;/a&gt;→有穷→寒→夏→&lt;a href=&#34;https://baike.baidu.com/item/%E5%95%86/3820941&#34;&gt;商&lt;/a&gt;（殷）→周【&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%91%A8/510056&#34;&gt;西周&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E5%91%A8&#34;&gt;东周&lt;/a&gt;（&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%A5%E7%A7%8B/982807&#34;&gt;春秋&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E6%88%98%E5%9B%BD/4819&#34;&gt;战国&lt;/a&gt;）】→&lt;a href=&#34;https://baike.baidu.com/item/%E7%A7%A6/2681927&#34;&gt;秦&lt;/a&gt;→西楚→汉【&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E6%B1%89&#34;&gt;西汉&lt;/a&gt;】→新→汉【玄汉、东汉、蜀汉（曹魏、孙吴）】&lt;a href=&#34;https://baike.baidu.com/item/%E2%86%92&#34;&gt;→&lt;/a&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%89%E5%9B%BD/5428&#34;&gt;三国&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E9%AD%8F&#34;&gt;魏&lt;/a&gt;（蜀汉、东吴）、&lt;a href=&#34;https://baike.baidu.com/item/%E8%9C%80&#34;&gt;蜀&lt;/a&gt;汉（魏朝、东吴）、东&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%B4/2742931&#34;&gt;吴&lt;/a&gt;（蜀汉、魏朝）】→&lt;a href=&#34;https://baike.baidu.com/item/%E6%99%8B/1723&#34;&gt;晋&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E6%99%8B&#34;&gt;西晋&lt;/a&gt;（东吴）、&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E6%99%8B&#34;&gt;东晋&lt;/a&gt;（北魏）】→&lt;a href=&#34;https://baike.baidu.com/item/%E5%8D%97%E5%8C%97%E6%9C%9D/6417&#34;&gt;南北朝&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E5%8D%97%E6%9C%9D/7131305&#34;&gt;南朝&lt;/a&gt;【刘&lt;a href=&#34;https://baike.baidu.com/item/%E5%AE%8B/4762756&#34;&gt;宋&lt;/a&gt;（北魏）、南&lt;a href=&#34;https://baike.baidu.com/item/%E9%BD%90/9618097&#34;&gt;齐&lt;/a&gt;（北魏）、&lt;a href=&#34;https://baike.baidu.com/item/%E6%A2%81/2953767&#34;&gt;梁&lt;/a&gt;（北魏、东魏、西魏、北齐）、&lt;a href=&#34;https://baike.baidu.com/item/%E9%99%88/6990894&#34;&gt;陈&lt;/a&gt;（北齐、北周、隋）】、&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E6%9C%9D/456678&#34;&gt;北朝&lt;/a&gt;【&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%AD%8F&#34;&gt;北魏&lt;/a&gt;（刘宋、南齐、梁）、&lt;a href=&#34;https://baike.baidu.com/item/%E4%B8%9C%E9%AD%8F&#34;&gt;东魏&lt;/a&gt;（西魏、梁）、&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E9%AD%8F&#34;&gt;西魏&lt;/a&gt;（东魏、梁、北齐）、&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E9%BD%90&#34;&gt;北齐&lt;/a&gt;（西魏、梁、北周）、&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E5%91%A8&#34;&gt;北周&lt;/a&gt;（北齐、陈）】】→&lt;a href=&#34;https://baike.baidu.com/item/%E9%9A%8B/7217663&#34;&gt;隋&lt;/a&gt;（陈）→唐→武周→唐→&lt;a href=&#34;https://baike.baidu.com/item/%E4%BA%94%E4%BB%A3&#34;&gt;五代&lt;/a&gt;十国【&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%A2%81/66912&#34;&gt;后梁&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%94%90&#34;&gt;后唐&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%99%8B&#34;&gt;后晋&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E6%B1%89/7288603&#34;&gt;后汉&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E5%90%8E%E5%91%A8/755018&#34;&gt;后周&lt;/a&gt;、十国】→宋 (&lt;a href=&#34;https://baike.baidu.com/item/%E5%8C%97%E5%AE%8B/396063&#34;&gt;北宋&lt;/a&gt;、南宋）辽、&lt;a href=&#34;https://baike.baidu.com/item/%E8%A5%BF%E5%A4%8F/698&#34;&gt;西夏&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E9%87%91/2641630&#34;&gt;金&lt;/a&gt;、→&lt;a href=&#34;https://baike.baidu.com/item/%E5%85%83/2634049&#34;&gt;元&lt;/a&gt;（大蒙古国、元、北元）→&lt;a href=&#34;https://baike.baidu.com/item/%E6%98%8E/9473149&#34;&gt;明&lt;/a&gt;（明、南明）→清&lt;/p&gt;&lt;p&gt;朝代歌&lt;/p&gt;&lt;p&gt;夏商与西周，东周分两段。&lt;/p&gt;&lt;p&gt;春秋和战国，一统秦两汉。&lt;/p&gt;&lt;p&gt;三分魏蜀吴，两晋前后延。&lt;/p&gt;&lt;p&gt;南北朝并立，隋唐五代传。&lt;/p&gt;&lt;p&gt;宋元明清后，王朝至此完。&lt;/p&gt;]]></content:encoded>
 
 </item>
 
 <item>
 <title>文明的广播</title>
-<link>https://doonly1.github.io/MOcBbYdBiCWE/</link>
-<guid isPermaLink="true">https://doonly1.github.io/MOcBbYdBiCWE/</guid>
+<link>https://demo.custom.test/MOcBbYdBiCWE/</link>
+<guid isPermaLink="true">https://demo.custom.test/MOcBbYdBiCWE/</guid>
 <pubDate>Sat, 08 Dec 2018 16:00:00 GMT</pubDate>
 <description>文明的广播</description>
 
@@ -250,8 +250,8 @@
 
 <item>
 <title>脑吸收</title>
-<link>https://doonly1.github.io/thZEweOJtzjM/</link>
-<guid isPermaLink="true">https://doonly1.github.io/thZEweOJtzjM/</guid>
+<link>https://demo.custom.test/thZEweOJtzjM/</link>
+<guid isPermaLink="true">https://demo.custom.test/thZEweOJtzjM/</guid>
 <pubDate>Wed, 14 Nov 2018 16:00:00 GMT</pubDate>
 <description>脑吸收</description>
 
@@ -261,8 +261,8 @@
 
 <item>
 <title>我何曾存在</title>
-<link>https://doonly1.github.io/WSxzHnHSgVsR/</link>
-<guid isPermaLink="true">https://doonly1.github.io/WSxzHnHSgVsR/</guid>
+<link>https://demo.custom.test/WSxzHnHSgVsR/</link>
+<guid isPermaLink="true">https://demo.custom.test/WSxzHnHSgVsR/</guid>
 <pubDate>Mon, 07 Aug 2017 16:00:00 GMT</pubDate>
 <description>我何曾存在</description>
 
@@ -272,8 +272,8 @@
 
 <item>
 <title>环境起源</title>
-<link>https://doonly1.github.io/dHZKr7RFbyFP/</link>
-<guid isPermaLink="true">https://doonly1.github.io/dHZKr7RFbyFP/</guid>
+<link>https://demo.custom.test/dHZKr7RFbyFP/</link>
+<guid isPermaLink="true">https://demo.custom.test/dHZKr7RFbyFP/</guid>
 <pubDate>Thu, 26 May 2016 16:00:00 GMT</pubDate>
 <description>环境起源</description>
 
@@ -283,8 +283,8 @@
 
 <item>
 <title>我这个生命不特殊</title>
-<link>https://doonly1.github.io/6GPxWZtG4o0y/</link>
-<guid isPermaLink="true">https://doonly1.github.io/6GPxWZtG4o0y/</guid>
+<link>https://demo.custom.test/6GPxWZtG4o0y/</link>
+<guid isPermaLink="true">https://demo.custom.test/6GPxWZtG4o0y/</guid>
 <pubDate>Thu, 12 May 2016 16:00:00 GMT</pubDate>
 <description>我这个生命不特殊</description>
 
@@ -294,8 +294,8 @@
 
 <item>
 <title>物与我</title>
-<link>https://doonly1.github.io/GJf3ys7xEQzx/</link>
-<guid isPermaLink="true">https://doonly1.github.io/GJf3ys7xEQzx/</guid>
+<link>https://demo.custom.test/GJf3ys7xEQzx/</link>
+<guid isPermaLink="true">https://demo.custom.test/GJf3ys7xEQzx/</guid>
 <pubDate>Mon, 14 Dec 2015 16:00:00 GMT</pubDate>
 <description>物与我</description>
 
@@ -305,8 +305,8 @@
 
 <item>
 <title>意识的五大模块导图</title>
-<link>https://doonly1.github.io/umsM32AZgysL/</link>
-<guid isPermaLink="true">https://doonly1.github.io/umsM32AZgysL/</guid>
+<link>https://demo.custom.test/umsM32AZgysL/</link>
+<guid isPermaLink="true">https://demo.custom.test/umsM32AZgysL/</guid>
 <pubDate></pubDate>
 <description>意识的五大模块导图</description>
 
