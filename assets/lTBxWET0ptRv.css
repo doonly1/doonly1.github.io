@@ -191,3 +191,65 @@
     font-size: var(--text-xs);
   }
 }
+
+/* 搜索框样式（原站 archive.css 末尾，迁移时遗漏，补回） */
+
+.sidebar-footer { position: relative; }
+
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: var(--space-4);
+  background: var(--color-surface-elevated);
+  border: none;
+  border-radius: 6px;
+  padding: var(--space-2);
+  z-index: 100;
+}
+
+.search-input {
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 4px;
+  font-size: var(--text-sm);
+  font-family: var(--font-ui);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-input:focus { border-color: var(--color-accent); }
+
+.search-results {
+  list-style: none;
+  margin: var(--space-2) 0 0;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.search-result-item a {
+  display: block;
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  font-family: var(--font-ui);
+  color: var(--color-text-secondary);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.search-result-item a:hover {
+  background: var(--color-surface-hover);
+  color: var(--color-accent);
+}
+
+.search-empty {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.search-toggle { border: none; background: none; cursor: pointer; padding: 0; }
