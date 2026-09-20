@@ -308,6 +308,16 @@
   .mobile-outline-btn {
     display: flex;
   }
+
+  /* 移动端 post 页右下角同时有「目录」(.mobile-outline-btn) 与「回到顶部」
+   * (.back-to-top)，两者原本共用同一个 right/bottom 角 → 必然重叠（40px 圆钮压在
+   * 44px 圆钮上）。把「回到顶部」抬到「目录」上方一层，并补 2px = (44-40)/2，
+   * 让两个不同直径的圆钮共用同一条中轴。
+   * 用 body.page-post 限定：非 post 页没有 .mobile-outline-btn，回到顶部留在原地。 */
+  body.page-post .back-to-top {
+    right: calc(var(--space-6) + 2px);
+    bottom: calc(var(--space-8) + 44px + var(--space-3));
+  }
 }
 
 /* On non-post pages (index/archive/about), the sidebar already handles
@@ -326,6 +336,13 @@
   .mobile-outline-btn {
     bottom: calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
     right: var(--space-4);
+  }
+
+  /* 窄屏必须再声明一次：与上面 ≤1024px 那条同特异性、源码在后才能生效，
+   * 否则 ≤1024px 的固定 bottom 会盖掉这里的 safe-area 内边距（刘海屏会顶到手势条）。 */
+  body.page-post .back-to-top {
+    right: calc(var(--space-4) + 2px);
+    bottom: calc(var(--space-6) + 44px + var(--space-3) + env(safe-area-inset-bottom, 0px));
   }
 }
 

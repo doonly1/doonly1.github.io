@@ -544,7 +544,12 @@ body.page-post .sidebar {
 }
 .post-nav a:hover .post-nav-title { color: var(--color-accent); }
 .post-nav a:active .post-nav-title { color: var(--color-accent); opacity: 0.7; }
-.post-nav-next { text-align: right; }
+
+/* 只渲染「下一篇」（最新一篇没有上一篇）时，flex + space-between 会把它放到
+ * 起始边（左侧）。两个 auto 外边距保证：单侧出现时 prev 靠左、next 靠右，
+ * 两侧都有时中间留白，行为一致。 */
+.post-nav-prev { margin-right: auto; }
+.post-nav-next { text-align: right; margin-left: auto; }
 
 /* ── Tablet & mobile: NOT a scaled-down copy of the desktop rule ─────────
  *
@@ -607,7 +612,9 @@ body.page-post .sidebar {
 
   .pull-quote-text { font-size: var(--text-2xl); }
   .post-nav { flex-direction: column; gap: var(--space-6); }
-  .post-nav-next { text-align: left; }
+  /* 竖排时两端对齐失效：必须清掉桌面端的 auto 外边距，否则「下一篇」会被推到右侧 */
+  .post-nav-prev { margin-right: 0; }
+  .post-nav-next { text-align: left; margin-left: 0; }
 }
 
 @media print {
@@ -619,14 +626,18 @@ body.page-post .sidebar {
 }
 
 /* No italic cut for Songti/Noto Serif SC — italic fakes an oblique skew on
- * CJK glyphs. Wavy underline instead. */
+ * CJK glyphs. Highlighter stroke instead: same treatment as mark, but kept as
+ * a separate rule so `mark` stays free to diverge later. */
 .article-content em {
   font-style: normal;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: var(--color-text-secondary);
-  text-decoration-thickness: 1.25px;
-  text-underline-offset: 0.2em;
+  background-image: linear-gradient(var(--color-accent-subtle), var(--color-accent-subtle));
+  background-repeat: no-repeat;
+  background-size: 100% 0.6em;
+  background-position: 0 82%;
+  border-radius: 2px;
+  padding: 0 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .article-content del {
@@ -809,3 +820,81 @@ body.page-post .sidebar {
   color: var(--color-text-muted);
   text-align: center;
 }
+
+/* ── Related posts (相关阅读) ──────────────────────────────────────────
+ * 由 #tag 交集在服务端算出（见 Wenxin-Theme.ejs 的 relatedPosts），最多 5 篇。
+ * 无分隔线：上方 .article-footer 的 border-top 已是视觉分界，这里不重复画。
+ * 行内只有「标题 + 相关依据标签」：标签贴住右边缘（右侧不留白），不显示日期。
+ * ─────────────────────────────────────────────────────────────────── */
+.related-posts {
+  margin-top: var(--space-24);
+}
+
+.related-title {
+  margin-bottom: var(--space-8);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  letter-spacing: var(--tracking-wider);
+}
+
+.related-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.related-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-6);
+}
+
+.related-link {
+  flex: 1;
+  min-width: 0;
+  text-decoration: none;
+}
+.related-name {
+  display: block;
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  color: var(--color-text-primary);
+  line-height: var(--leading-snug);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color var(--duration-fast);
+}
+.related-link:hover .related-name,
+.related-link:active .related-name { color: var(--color-accent); }
+
+/* 相关依据标签：贴右边缘，accent 色 */
+.related-hint {
+  flex-shrink: 0;
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  letter-spacing: var(--tracking-wide);
+  white-space: nowrap;
+}
+
+@media (max-width: 639px) {
+  .related-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-1);
+  }
+  .related-name { white-space: normal; }
+}
+
+/* ── KaTeX 公式视觉减重 ──────────────────────────────────────────────────
+ * KaTeX 自带字体仅含 400/700 两档字重，纯 font-weight 无法更轻——没有更轻的字面
+ * 可用，浏览器也不会合成更细字重。这里把公式字号从 KaTeX 默认的 1.21em 略缩到
+ * 1.05em，让数学符号读起来更轻、更精致，与无衬线正文形成更协调的观感。
+ * 若要真正的细字重，需换用带 Light 档的数学字体（如 Fira Math），但那会改动字形与
+ * 大型符号（积分/求和/括号）的度规，非小改所能及。 */
+.article-content .katex { font-size: 1.05em; }
+

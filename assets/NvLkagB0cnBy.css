@@ -88,11 +88,6 @@ body:not(.page-post) .sidebar {
   font-size: var(--icon-md);
   display: inline-flex;
   transition: color var(--duration-fast), transform var(--duration-fast);
-  /* 搜索按钮复用本 class（<button>）：清除浏览器默认边框/背景/内边距 */
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
 }
 
 .social-icon:hover {

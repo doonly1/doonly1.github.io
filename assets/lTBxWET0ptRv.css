@@ -20,6 +20,7 @@
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
+  margin-bottom: var(--space-2);
   border: 1px solid var(--color-border-subtle);
   padding: var(--space-2) var(--space-4);
   border-radius: 2px;
@@ -140,6 +141,7 @@
 
 .pagination-link {
   color: var(--color-text-secondary);
+  margin-bottom: var(--space-2);
   transition: color var(--duration-fast);
   text-decoration: none;
 }
@@ -164,6 +166,7 @@
 
 .pagination-number {
   color: var(--color-text-secondary);
+  margin-bottom: var(--space-2);
   text-decoration: none;
   transition: color var(--duration-fast);
   min-width: 2ch;
@@ -192,10 +195,6 @@
   }
 }
 
-/* 搜索框样式（原站 archive.css 末尾，迁移时遗漏，补回） */
-
-.sidebar-footer { position: relative; }
-
 .search-dropdown {
   position: absolute;
   top: 100%;
@@ -208,7 +207,6 @@
   padding: var(--space-2);
   z-index: 100;
 }
-
 .search-input {
   width: 100%;
   padding: var(--space-2) var(--space-3);
@@ -221,16 +219,13 @@
   outline: none;
   box-sizing: border-box;
 }
-
 .search-input:focus { border-color: var(--color-accent); }
-
 .search-results {
   list-style: none;
   margin: var(--space-2) 0 0;
   max-height: 240px;
   overflow-y: auto;
 }
-
 .search-result-item a {
   display: block;
   padding: var(--space-2) var(--space-3);
@@ -240,16 +235,30 @@
   border-radius: 3px;
   text-decoration: none;
 }
-
 .search-result-item a:hover {
   background: var(--color-surface-hover);
   color: var(--color-accent);
 }
-
 .search-empty {
   padding: var(--space-2) var(--space-3);
   font-size: var(--text-sm);
   color: var(--color-text-muted);
 }
-
+.sidebar-footer { position: relative; }
 .search-toggle { border: none; background: none; cursor: pointer; padding: 0; }
+.site-nav a:not([href]) { cursor: default; }
+
+/* ── 标签云篇数角标 ────────────────────────────────────────────────────
+ * 标签云本身保持统一样式（不按篇数缩放字号）；仅在每个标签右上角标出
+ * 该标签收录的文章数。筛选逻辑与 .active 状态不变。
+ * ─────────────────────────────────────────────────────────────────── */
+.taxonomy-count {
+  margin-left: 2px;
+  font-family: var(--font-mono);
+  font-size: 0.68em;
+  color: var(--color-text-muted);
+  vertical-align: super;
+  font-variant-numeric: tabular-nums;
+}
+.taxonomy-tag:hover .taxonomy-count,
+.taxonomy-tag.active .taxonomy-count { color: var(--color-accent); }
